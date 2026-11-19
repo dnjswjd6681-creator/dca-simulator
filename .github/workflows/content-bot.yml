@@ -1,0 +1,77 @@
+name: content-bot
+
+on:
+  schedule:
+    - cron: "7 22 * * *"   # 매일 07:07 KST — 블로그 1 + X 1 (미장 마감 후)
+    - cron: "37 7 * * *"   # 매일 16:37 KST — X 1 (국장 마감 후)
+  workflow_dispatch:        # Actions 탭에서 수동 실행
+    inputs:
+      mode:
+        description: "morning(블로그+X) 또는 evening(X)"
+        required: true
+        default: morning
+        type: choice
+        options: [morning, evening]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: content-bot/requirements.txt
+
+      - name: 한글 폰트 설치 (썸네일용)
+        run: sudo apt-get update -q && sudo apt-get install -y -q fonts-noto-cjk
+
+      - run: pip install -r content-bot/requirements.txt
+
+      - name: 모드 결정
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "7 22 * * *" ]; then
+            echo "mode=morning" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=evening" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 초안 작성 & 텔레그램 전송
+        working-directory: content-bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py ${{ steps.mode.outputs.mode }}
+
+      - name: 실패 시 텔레그램 알림
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠️ 초안 생성 실패 (${{ steps.mode.outputs.mode }}). 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: 초안 보관 (drafts/ 폴더에 커밋)
+        if: always()
+        run: |
+          git config user.name "content-bot"
+          git config user.email "content-bot@users.noreply.github.com"
+          git add drafts/
+          git diff --cached --quiet || git commit -m "drafts: $(TZ=Asia/Seoul date +%F) ${{ steps.mode.outputs.mode }}"
+          git push || (git pull --rebase && git push)
