@@ -1,0 +1,782 @@
+{
+ "collected_at_kst": "2026-11-21 12:10",
+ "us_indices": [
+  {
+   "name": "S&P500",
+   "symbol": "^GSPC",
+   "date": "2026-11-20",
+   "close": 6910.39,
+   "chg_1d_%": -3.7,
+   "chg_5d_%": -8.61,
+   "chg_1m_%": -9.83
+  },
+  {
+   "name": "다우",
+   "symbol": "^DJI",
+   "date": "2026-11-20",
+   "close": 48147.33,
+   "chg_1d_%": -1.93,
+   "chg_5d_%": -8.02,
+   "chg_1m_%": -8.93
+  },
+  {
+   "name": "필라델피아반도체",
+   "symbol": "^SOX",
+   "date": "2026-11-20",
+   "close": 8408.59,
+   "chg_1d_%": -10.73,
+   "chg_5d_%": -17.13,
+   "chg_1m_%": -21.65
+  },
+  {
+   "name": "러셀2000",
+   "symbol": "^RUT",
+   "date": "2026-11-20",
+   "close": 2581.79,
+   "chg_1d_%": -2.76,
+   "chg_5d_%": -7.48,
+   "chg_1m_%": -7.26
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "date": "2026-11-20",
+   "close": 35.89,
+   "chg_1d_%": 26.2,
+   "chg_5d_%": 85.96,
+   "chg_1m_%": 88.6
+  }
+ ],
+ "us_stocks": [
+  {
+   "name": "엔비디아",
+   "symbol": "NVDA",
+   "date": "2026-11-20",
+   "close": 125.53,
+   "chg_1d_%": -14.01,
+   "chg_5d_%": -22.92,
+   "chg_1m_%": -40.85
+  },
+  {
+   "name": "애플",
+   "symbol": "AAPL",
+   "date": "2026-11-20",
+   "close": 342.56,
+   "chg_1d_%": -1.9,
+   "chg_5d_%": -3.85,
+   "chg_1m_%": -1.63
+  },
+  {
+   "name": "마이크로소프트",
+   "symbol": "MSFT",
+   "date": "2026-11-20",
+   "close": 484.52,
+   "chg_1d_%": -2.77,
+   "chg_5d_%": -7.51,
+   "chg_1m_%": -7.02
+  },
+  {
+   "name": "알파벳",
+   "symbol": "GOOGL",
+   "date": "2026-11-20",
+   "close": 265.29,
+   "chg_1d_%": -2.7,
+   "chg_5d_%": -10.31,
+   "chg_1m_%": -18.18
+  },
+  {
+   "name": "아마존",
+   "symbol": "AMZN",
+   "date": "2026-11-20",
+   "close": 246.82,
+   "chg_1d_%": -4.1,
+   "chg_5d_%": -7.44,
+   "chg_1m_%": -1.42
+  },
+  {
+   "name": "메타",
+   "symbol": "META",
+   "date": "2026-11-20",
+   "close": 560.84,
+   "chg_1d_%": -5.93,
+   "chg_5d_%": -12.6,
+   "chg_1m_%": -13.56
+  },
+  {
+   "name": "테슬라",
+   "symbol": "TSLA",
+   "date": "2026-11-20",
+   "close": 345.82,
+   "chg_1d_%": -7.64,
+   "chg_5d_%": -11.38,
+   "chg_1m_%": -7.68
+  },
+  {
+   "name": "브로드컴",
+   "symbol": "AVGO",
+   "date": "2026-11-20",
+   "close": 304.41,
+   "chg_1d_%": -12.19,
+   "chg_5d_%": -12.28,
+   "chg_1m_%": -5.83
+  },
+  {
+   "name": "팔란티어",
+   "symbol": "PLTR",
+   "date": "2026-11-20",
+   "close": 143.49,
+   "chg_1d_%": -6.63,
+   "chg_5d_%": -14.58,
+   "chg_1m_%": -26.86
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "date": "2026-11-20",
+   "close": 318.71,
+   "chg_1d_%": -9.48,
+   "chg_5d_%": -20.07,
+   "chg_1m_%": -22.71
+  }
+ ],
+ "kr_indices": [
+  {
+   "name": "코스피",
+   "symbol": "^KS11",
+   "date": "2026-11-20",
+   "close": 4869.96,
+   "chg_1d_%": -5.21,
+   "chg_5d_%": -7.95,
+   "chg_1m_%": -12.0
+  },
+  {
+   "name": "코스닥",
+   "symbol": "^KQ11",
+   "date": "2026-11-20",
+   "close": 645.68,
+   "chg_1d_%": -5.71,
+   "chg_5d_%": -7.72,
+   "chg_1m_%": -15.5
+  }
+ ],
+ "kr_stocks": [
+  {
+   "name": "삼성전자",
+   "symbol": "005930.KS",
+   "date": "2026-11-20",
+   "close": 183100.0,
+   "chg_1d_%": -7.01,
+   "chg_5d_%": -11.12,
+   "chg_1m_%": -14.64
+  },
+  {
+   "name": "SK하이닉스",
+   "symbol": "000660.KS",
+   "date": "2026-11-20",
+   "close": 1113000.0,
+   "chg_1d_%": -5.92,
+   "chg_5d_%": -8.47,
+   "chg_1m_%": -8.99
+  },
+  {
+   "name": "LG에너지솔루션",
+   "symbol": "373220.KS",
+   "date": "2026-11-20",
+   "close": 299500.0,
+   "chg_1d_%": -0.83,
+   "chg_5d_%": -7.7,
+   "chg_1m_%": -23.21
+  },
+  {
+   "name": "현대차",
+   "symbol": "005380.KS",
+   "date": "2026-11-20",
+   "close": 255000.0,
+   "chg_1d_%": -4.67,
+   "chg_5d_%": -5.38,
+   "chg_1m_%": -15.42
+  },
+  {
+   "name": "삼성바이오로직스",
+   "symbol": "207940.KS",
+   "date": "2026-11-20",
+   "close": 1355000.0,
+   "chg_1d_%": -1.45,
+   "chg_5d_%": -3.97,
+   "chg_1m_%": -0.44
+  },
+  {
+   "name": "NAVER",
+   "symbol": "035420.KS",
+   "date": "2026-11-20",
+   "close": 161600.0,
+   "chg_1d_%": -3.98,
+   "chg_5d_%": -6.32,
+   "chg_1m_%": -8.39
+  }
+ ],
+ "macro": [
+  {
+   "name": "원/달러",
+   "symbol": "KRW=X",
+   "date": "2026-11-20",
+   "close": 1334.79,
+   "chg_1d_%": 0.33,
+   "chg_5d_%": 0.08,
+   "chg_1m_%": 0.69
+  },
+  {
+   "name": "달러인덱스",
+   "symbol": "DX-Y.NYB",
+   "date": "2026-11-20",
+   "close": 103.84,
+   "chg_1d_%": -0.06,
+   "chg_5d_%": 0.42,
+   "chg_1m_%": 2.19
+  },
+  {
+   "name": "미국10년물(%)",
+   "symbol": "^TNX",
+   "date": "2026-11-20",
+   "close": 4.91,
+   "chg_1d_%": -2.77,
+   "chg_5d_%": -4.7,
+   "chg_1m_%": -0.83
+  },
+  {
+   "name": "WTI유가",
+   "symbol": "CL=F",
+   "date": "2026-11-20",
+   "close": 83.62,
+   "chg_1d_%": 0.49,
+   "chg_5d_%": -5.58,
+   "chg_1m_%": -15.93
+  },
+  {
+   "name": "금",
+   "symbol": "GC=F",
+   "date": "2026-11-20",
+   "close": 3539.0,
+   "chg_1d_%": -3.98,
+   "chg_5d_%": -8.94,
+   "chg_1m_%": -12.84
+  }
+ ],
+ "crypto": {
+  "total_mcap_usd_trillion": 2.016,
+  "mcap_chg_24h_%": -8.3,
+  "btc_dominance_%": 57.7,
+  "eth_dominance_%": 9.69,
+  "prices": {
+   "bitcoin": {
+    "usd": 58132,
+    "krw": 78254481,
+    "chg_24h_%": -6.01
+   },
+   "ethereum": {
+    "usd": 1605.35,
+    "krw": 2161064,
+    "chg_24h_%": -7.62
+   },
+   "solana": {
+    "usd": 67.77,
+    "krw": 91229,
+    "chg_24h_%": -6.29
+   },
+   "ripple": {
+    "usd": 0.893188,
+    "krw": 1202.37,
+    "chg_24h_%": -6.13
+   }
+  },
+  "fear_greed": [
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 10,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 10,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 10,
+    "label": "Extreme Fear"
+   }
+  ],
+  "stablecoin_supply_usd_billion": 282.5,
+  "stablecoin_7d_chg_usd_billion": -4.52
+ },
+ "news": {
+  "미국주식": [
+   {
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "summary": "Odds that the S&amp;P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "published": "Fri, 20 Nov 2026 19:59:03 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+    "summary": "Anthropic options list Monday. They will likely be expensive",
+    "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+    "published": "Fri, 20 Nov 2026 15:12:40 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Cathie Wood’s Ark Invest was a big buyer of Anthropic as she tells CNBC she’s ‘quite optimistic’",
+    "summary": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
+    "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
+    "published": "Fri, 20 Nov 2026 16:18:04 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+    "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
+    "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+    "published": "Fri, 20 Nov 2026 00:00:38 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "AMD dives on short seller report of alleged China exposure",
+    "summary": "AMD closed down over 7% after a short seller alleged that its firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+    "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+    "published": "Fri, 20 Nov 2026 00:08:34 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+    "summary": "Nvidia options are pricing in a bigger move than usual.",
+    "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+    "published": "Tue, 17 Nov 2026 13:16:43 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
+    "summary": "There are bullish signs surrounding the Anthropic IPO in the derivatives market.",
+    "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html",
+    "published": "Mon, 16 Nov 2026 19:06:11 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+    "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
+    "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+    "published": "Sat, 14 Nov 2026 14:02:39 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+    "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+    "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+    "published": "Fri, 20 Nov 2026 22:59:33 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "A massive bearish trade just happened in the chip stocks",
+    "summary": "Options traders place big bets that semiconductor stocks have further to fall",
+    "link": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+    "published": "Fri, 20 Nov 2026 19:33:31 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+    "summary": "Cybersecurity companies have been hunting for acquisitions in the AI era.",
+    "link": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+    "published": "Fri, 20 Nov 2026 21:35:24 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "The bull market has a new problem. The 'smart money' is selling",
+    "summary": "Companies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the test.",
+    "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+    "published": "Fri, 20 Nov 2026 14:15:29 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+    "summary": "Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.",
+    "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+    "published": "Fri, 20 Nov 2026 20:47:58 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "summary": "Odds that the S&amp;P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "published": "Fri, 20 Nov 2026 19:59:03 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+    "summary": "Anthropic options list Monday. They will likely be expensive",
+    "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+    "published": "Fri, 20 Nov 2026 15:12:40 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Trump says he still has confidence in Lutnick",
+    "summary": "President Donald Trump, when asked by CNBC's Eamon Javers, said he has not lost confidence in Commerce Secretary Howard Lutnick.",
+    "link": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
+    "published": "Fri, 20 Nov 2026 20:52:08 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+    "summary": "All 11 S&amp;P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
+    "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 22:46:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+    "summary": "A major semiconductor index just posted its worst weekly performance in 25 years.",
+    "link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 22:44:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+    "summary": "94% of stocks in the S&amp;P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
+    "link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 22:44:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+    "summary": "One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
+    "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 21:58:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
+    "summary": "‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.",
+    "link": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 21:39:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
+    "summary": "A looming oversupply problem could weigh on the stock over the next year",
+    "link": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 21:39:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+    "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
+    "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 21:36:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
+    "summary": "Travelers preparing for Thanksgiving trips will find cheaper gasoline prices at the pump after months of elevated fuel prices.",
+    "link": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
+    "published": "Fri, 20 Nov 2026 21:34:00 GMT",
+    "source": "MarketWatch"
+   }
+  ],
+  "국내주식": [
+   {
+    "title": "[부고] 이창봉(삼성증권 이사)씨 장모상",
+    "summary": "▲ 김미자 씨 별세, 이주현·이재경 씨 모친상, 이창봉(삼성증권 이사)·최지욱 씨 장모상 = 21일 오전, 이대서울병원장례식장 6호실, 발인 2...",
+    "link": "https://www.yna.co.kr/view/AKR20261121029200008",
+    "published": "Sat, 21 Nov 2026 11:13:19 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+    "summary": "■ [르포] 대학 논술시험장도 AI발 혼란…앞치마 지급도",
+    "link": "https://www.yna.co.kr/view/AKR20261121024500011",
+    "published": "Sat, 21 Nov 2026 10:30:00 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "노동장관, 'AI 커닝' 사태 속 첫 국가자격시험 현장 점검",
+    "summary": "(서울=연합뉴스) 옥성구 기자 = 김영훈 고용노동부 장관이 21일 &apos;인공지능(AI) 부정행위&apos; 사태 뒤로 처음 치러진 국가자격시험 현장을 찾아 ...",
+    "link": "https://www.yna.co.kr/view/AKR20261121023800530",
+    "published": "Sat, 21 Nov 2026 10:12:05 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[바이오사이언스] 바이오의약품 임상 승인 203건…분기마다 증가",
+    "summary": "(서울=연합뉴스) 신선미 기자 = 올해 국내 바이오의약품 임상시험 승인이 분기마다 늘어 3분기까지 모두 200건을 넘은 것으로 집계됐다.",
+    "link": "https://www.yna.co.kr/view/AKR20261120156900017",
+    "published": "Sat, 21 Nov 2026 10:00:03 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "춘천바이오산업진흥원, '칩 위의 실험실' 산업화 생산기반 확충",
+    "summary": "(춘천=연합뉴스) 이상학 기자 = 실험실의 복잡한 분석 과정을 작은 칩 안에 구현하는 &apos;랩온어칩&apos; 기술이 강원 춘천에서 산업화 기반을 넓히고 있...",
+    "link": "https://www.yna.co.kr/view/AKR20261120113700062",
+    "published": "Sat, 21 Nov 2026 09:35:00 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[민선9기 서울] 서준오 노원구청장 \"베드타운 벗고 기업집중 경제도시로\"",
+    "summary": "(서울=연합뉴스) 정준영 김준태 기자 = &quot;노원을 베드타운에서 기업과 일자리가 모이는 경제도시로 바꾼 구청장으로 기억되고 싶습니다.&quot;",
+    "link": "https://www.yna.co.kr/view/AKR20261120135700004",
+    "published": "Sat, 21 Nov 2026 09:00:01 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+    "summary": "(서울=연합뉴스) 이도흔 기자 = 인공지능(AI) 산업 성장에 국내 반도체 산업이 호황을 맞고 있지만, 국내 경제 전반으로 확산되는 효과는 지금...",
+    "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+    "published": "Sat, 21 Nov 2026 09:00:00 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[다음주 경제] 숨 고르기 한 기준금리, 인상할까…한은 성장률 전망은",
+    "summary": "(세종=연합뉴스) 이대희 배영경 한지훈 기자 = 다음 주(11월 23∼27일)에는 한국은행 금융통화위원회가 기준금리를 결정한다.",
+    "link": "https://www.yna.co.kr/view/AKR20261121014700002",
+    "published": "Sat, 21 Nov 2026 08:36:08 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "나스닥 5% 폭락…시험대 오른 국내 증시, 반등 열쇠는 [다음주 주요 변수 미리보기]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611200923i",
+    "published": "Sat, 21 Nov 2026 11:00:08 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "\"믿었던 AI마저\"…기술주 투매에 나스닥 5% 급락 [뉴욕증시 브리핑]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112110837",
+    "published": "Sat, 21 Nov 2026 07:27:04 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "앤트로픽 상장은 '마지막 불꽃놀이'...FT의 경고 [월가 업&다운]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611211036i",
+    "published": "Sat, 21 Nov 2026 02:25:12 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112004446",
+    "published": "Fri, 20 Nov 2026 22:00:01 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "[2027 대전망] 무너진 오천피…\"내가 산 가격 잊어라\" 2조 큰손의 조언",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611198067i",
+    "published": "Fri, 20 Nov 2026 18:33:27 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "삼전닉스 'PER 2배' 극단적 저평가…1000조 벌어도 못 믿는다",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112007211",
+    "published": "Fri, 20 Nov 2026 18:15:47 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "29만전자 vs 69만전자…160만닉스 vs 470만닉스",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112007221",
+    "published": "Fri, 20 Nov 2026 18:14:13 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "삼전닉스 주주 1100만명…절반 이상이 '손실'",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112007191",
+    "published": "Fri, 20 Nov 2026 18:13:15 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "역대 최대 IPO 성공한 앤트로픽…오픈AI도 증시 입성 탄력 받나",
+    "summary": "공모 규모 813억달러 앤트로픽 3분기 매출 168억달러, 전분기比 45% 증가 오픈AI도 매출 급증…적자 줄이고 수익성 입증해야인공지능(AI) 챗봇 클로드 개발사 앤트로픽이 역대..",
+    "link": "https://www.mk.co.kr/news/stock/12215211",
+    "published": "Sat, 21 Nov 2026 11:41:05 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
+    "summary": "한 달 순매수 톱10 금액 절반이 2·3배 ETF 엔비디아, 최근 일주일 5억달러 순매수 1위 “낙폰 큰 투자 땐 밸류에이션 살펴야” 조언도국내 투자자들이 최근 국내에서 레버리지로..",
+    "link": "https://www.mk.co.kr/news/stock/12215178",
+    "published": "Sat, 21 Nov 2026 09:24:56 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
+    "summary": "20일(현지시간) 미국 뉴욕증시 주요 지수가 일제히 급락했다. 엔비디아의 호실적과 앤트로픽의 상장 흥행에도 인공지능(AI) 관련 기술주를 중심으로 매도세가 이어지면서 투자심리가 위..",
+    "link": "https://www.mk.co.kr/news/stock/12215112",
+    "published": "Sat, 21 Nov 2026 06:24:01 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
+    "summary": "10월 韓국채 순투자로 전환 유럽계 주도 안전자산 쏠림 AI회의론에 주식은 매도세 올 256조 팔아치워 역대급외국인 투자자들이 국내 주식시장에서 대대적인 순매도세를 나타내고 있다...",
+    "link": "https://www.mk.co.kr/news/stock/12215101",
+    "published": "Sat, 21 Nov 2026 06:09:59 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "8월까지 103차례 사고팔더니…트럼프 계좌, 9월에도 엔비디아 더 샀다",
+    "summary": "도널드 트럼프 미국 대통령의 투자 계좌에서 지난 9월에도 엔비디아 주식 매수와 매도가 모두 이뤄진 것으로 나타났다. 트럼프 대통령 재집권 이후 8월까지 최소 103차례 거래된 종목..",
+    "link": "https://www.mk.co.kr/news/stock/12214899",
+    "published": "Fri, 20 Nov 2026 18:15:57 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "결국 고꾸라진 코스피 … “바닥이 어디?”보다 중요한 질문은",
+    "summary": "급락장을 대하는 투자자 자세‘시장의 바닥은 어디일까요?’ 요즘과 같은 조정 장세에서 자주 받는 질문이다. 이에 대한 애널리스트로서의 솔직한 대답은 ‘알 수 없다’는 것이다. 우리가..",
+    "link": "https://www.mk.co.kr/news/stock/12214887",
+    "published": "Fri, 20 Nov 2026 17:49:13 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "“이런 블랙프라이데이 최악입니다”…비트코인·금까지 죄다 추락",
+    "summary": "美 추가 금리인상 가능성 부상 비트코인 8300만원대로 추락 안전자산 금값 14개월來 최저비트코인 가격이 8300만원대까지 내려앉았다. 지난해 최고점과 비교하면 절반 넘게 하락한 ..",
+    "link": "https://www.mk.co.kr/news/stock/12214881",
+    "published": "Fri, 20 Nov 2026 17:43:12 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "앤트로픽 쏠림·대중규제 우려 … 반도체株 곤두박질",
+    "summary": "인공지능(AI) 투자에 대한 회의론은 쉽게 꺼지지 않는 불씨였다. 오히려 미국이 기준금리를 추가 인상할 것이라는 우려가 더해지자 불길이 더 세진 모양새다. 앤트로픽 기업공개(IPO..",
+    "link": "https://www.mk.co.kr/news/stock/12214868",
+    "published": "Fri, 20 Nov 2026 17:38:59 +09:00",
+    "source": "매일경제 증권"
+   }
+  ],
+  "크립토": [
+   {
+    "title": "Kalshi races to get ahead of New York order that could shut down exchange",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
+    "published": "Fri, 20 Nov 2026 22:51:14 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
+    "published": "Fri, 20 Nov 2026 22:05:31 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+    "published": "Fri, 20 Nov 2026 18:13:52 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/20/former-point72-head-of-proprietary-research-says-ai-could-turn-data-into-a-new-asset-class-for-wall-street",
+    "published": "Fri, 20 Nov 2026 14:54:30 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
+    "published": "Fri, 20 Nov 2026 14:38:30 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "U.S. Senate passes bill to ban prediction market bets on war and death",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
+    "published": "Fri, 20 Nov 2026 14:25:57 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+    "summary": "",
+    "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+    "published": "Fri, 20 Nov 2026 13:35:33 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+    "summary": "",
+    "link": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+    "published": "Fri, 20 Nov 2026 13:30:22 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+    "summary": "Bitquery traced $13.5 million in suspicious sales of the wrapped Monero token, as its operator blamed a security breach and promised to reimburse affected traders.",
+    "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 19:37:27 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+    "summary": "Sky says its USDS stablecoin held its $1 value despite more than $2 billion in withdrawals, as it disputes a report linking the protocol to illicit activity.",
+    "link": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 18:37:10 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+    "summary": "Bitcoin fell nearly 6% as US stocks declined, with the Nasdaq dropping more than 2% and Anthropic shares losing almost 10%.",
+    "link": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 16:55:51 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "US Senate advances prediction market restrictions with DEATH BETS Act",
+    "summary": "The Senate-approved bill would ban prediction market contracts tied to war, assassination and death amid concerns over potential insider trading on military events.",
+    "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 15:55:22 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+    "summary": "Bitcoin price strength felt pressure from falling US equities as traders reassessed AI prospects after Anthropic’s IPO.",
+    "link": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 15:52:06 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "DBS bets it can lose the deposit and keep the client",
+    "summary": "The Singapore bank earned a record $208 million in transaction services fees in the third quarter — now it’s helping companies turn deposits into stablecoins they can spend without it.",
+    "link": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 15:32:30 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Here’s what happened in crypto today",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 13:29:58 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
+    "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
+    "link": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 20 Nov 2026 13:21:39 +0000",
+    "source": "Cointelegraph"
+   }
+  ]
+ },
+ "youtube": []
+}
