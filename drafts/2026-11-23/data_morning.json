@@ -1,5 +1,5 @@
 {
- "collected_at_kst": "2026-11-23 11:38",
+ "collected_at_kst": "2026-11-23 13:38",
  "us_indices": [
   {
    "name": "S&P500",
@@ -153,19 +153,19 @@
    "name": "코스피",
    "symbol": "^KS11",
    "date": "2026-11-23",
-   "close": 4660.57,
-   "chg_1d_%": -4.3,
-   "chg_5d_%": -8.63,
-   "chg_1m_%": -16.03
+   "close": 4712.65,
+   "chg_1d_%": -3.23,
+   "chg_5d_%": -7.6,
+   "chg_1m_%": -15.09
   },
   {
    "name": "코스닥",
    "symbol": "^KQ11",
    "date": "2026-11-23",
-   "close": 627.27,
-   "chg_1d_%": -2.85,
-   "chg_5d_%": -5.77,
-   "chg_1m_%": -16.55
+   "close": 639.57,
+   "chg_1d_%": -0.95,
+   "chg_5d_%": -3.92,
+   "chg_1m_%": -14.92
   }
  ],
  "kr_stocks": [
@@ -173,55 +173,55 @@
    "name": "삼성전자",
    "symbol": "005930.KS",
    "date": "2026-11-23",
-   "close": 174600.0,
-   "chg_1d_%": -4.64,
-   "chg_5d_%": -11.28,
-   "chg_1m_%": -18.98
+   "close": 177900.0,
+   "chg_1d_%": -2.84,
+   "chg_5d_%": -9.6,
+   "chg_1m_%": -17.45
   },
   {
    "name": "SK하이닉스",
    "symbol": "000660.KS",
    "date": "2026-11-23",
-   "close": 1067000.0,
-   "chg_1d_%": -4.13,
-   "chg_5d_%": -4.73,
-   "chg_1m_%": -16.44
+   "close": 1079000.0,
+   "chg_1d_%": -3.05,
+   "chg_5d_%": -3.66,
+   "chg_1m_%": -15.51
   },
   {
    "name": "LG에너지솔루션",
    "symbol": "373220.KS",
    "date": "2026-11-23",
-   "close": 289750.0,
-   "chg_1d_%": -3.26,
-   "chg_5d_%": -9.03,
-   "chg_1m_%": -24.35
+   "close": 293500.0,
+   "chg_1d_%": -2.0,
+   "chg_5d_%": -7.85,
+   "chg_1m_%": -23.37
   },
   {
    "name": "현대차",
    "symbol": "005380.KS",
    "date": "2026-11-23",
-   "close": 243500.0,
-   "chg_1d_%": -4.51,
-   "chg_5d_%": -8.29,
-   "chg_1m_%": -17.6
+   "close": 246500.0,
+   "chg_1d_%": -3.33,
+   "chg_5d_%": -7.16,
+   "chg_1m_%": -16.58
   },
   {
    "name": "삼성바이오로직스",
    "symbol": "207940.KS",
    "date": "2026-11-23",
-   "close": 1278000.0,
-   "chg_1d_%": -5.68,
-   "chg_5d_%": -10.19,
-   "chg_1m_%": -12.82
+   "close": 1288000.0,
+   "chg_1d_%": -4.94,
+   "chg_5d_%": -9.49,
+   "chg_1m_%": -12.14
   },
   {
    "name": "NAVER",
    "symbol": "035420.KS",
    "date": "2026-11-23",
-   "close": 146700.0,
-   "chg_1d_%": -9.22,
-   "chg_5d_%": -15.15,
-   "chg_1m_%": -15.5
+   "close": 149300.0,
+   "chg_1d_%": -7.61,
+   "chg_5d_%": -13.65,
+   "chg_1m_%": -14.0
   }
  ],
  "macro": [
@@ -229,19 +229,19 @@
    "name": "원/달러",
    "symbol": "KRW=X",
    "date": "2026-11-23",
-   "close": 1346.08,
-   "chg_1d_%": 0.85,
-   "chg_5d_%": 0.96,
-   "chg_1m_%": 1.52
+   "close": 1350.48,
+   "chg_1d_%": 1.18,
+   "chg_5d_%": 1.29,
+   "chg_1m_%": 1.85
   },
   {
    "name": "달러인덱스",
    "symbol": "DX-Y.NYB",
    "date": "2026-11-22",
-   "close": 103.71,
-   "chg_1d_%": -0.09,
-   "chg_5d_%": 0.16,
-   "chg_1m_%": 1.87
+   "close": 103.79,
+   "chg_1d_%": -0.02,
+   "chg_5d_%": 0.23,
+   "chg_1m_%": 1.94
   },
   {
    "name": "미국10년물(%)",
@@ -256,46 +256,46 @@
    "name": "WTI유가",
    "symbol": "CL=F",
    "date": "2026-11-22",
-   "close": 82.97,
-   "chg_1d_%": -1.2,
-   "chg_5d_%": -3.21,
-   "chg_1m_%": -19.66
+   "close": 83.53,
+   "chg_1d_%": -0.54,
+   "chg_5d_%": -2.55,
+   "chg_1m_%": -19.11
   },
   {
    "name": "금",
    "symbol": "GC=F",
    "date": "2026-11-22",
-   "close": 3584.2,
-   "chg_1d_%": 1.96,
-   "chg_5d_%": -6.98,
-   "chg_1m_%": -10.57
+   "close": 3608.0,
+   "chg_1d_%": 2.63,
+   "chg_5d_%": -6.36,
+   "chg_1m_%": -9.98
   }
  ],
  "crypto": {
-  "total_mcap_usd_trillion": 2.073,
-  "mcap_chg_24h_%": -3.21,
-  "btc_dominance_%": 58.86,
-  "eth_dominance_%": 10.04,
+  "total_mcap_usd_trillion": 2.084,
+  "mcap_chg_24h_%": -1.53,
+  "btc_dominance_%": 58.82,
+  "eth_dominance_%": 10.1,
   "prices": {
    "bitcoin": {
-    "usd": 60677,
-    "krw": 81732864,
-    "chg_24h_%": 1.98
+    "usd": 61038,
+    "krw": 82427017,
+    "chg_24h_%": 2.97
    },
    "ethereum": {
-    "usd": 1702.65,
-    "krw": 2293500,
-    "chg_24h_%": 1.83
+    "usd": 1724.38,
+    "krw": 2328637,
+    "chg_24h_%": 3.78
    },
    "solana": {
-    "usd": 70.16,
-    "krw": 94502,
-    "chg_24h_%": 0.66
+    "usd": 71.18,
+    "krw": 96117,
+    "chg_24h_%": 2.41
    },
    "ripple": {
-    "usd": 0.915446,
-    "krw": 1233.12,
-    "chg_24h_%": -0.92
+    "usd": 0.931473,
+    "krw": 1257.88,
+    "chg_24h_%": 1.27
    }
   },
   "fear_greed": [
@@ -329,7 +329,7 @@
    }
   ],
   "stablecoin_supply_usd_billion": 282.7,
-  "stablecoin_7d_chg_usd_billion": -4.44
+  "stablecoin_7d_chg_usd_billion": -4.43
  },
  "news": {
   "미국주식": [
@@ -390,10 +390,31 @@
     "source": "CNBC Markets"
    },
    {
+    "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+    "summary": "Yemen's Iran-aligned Houthis claimed an operation against Saudi Arabia's Rabigh oil refinery, as diplomatic efforts to end the war face long odds.",
+    "link": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
+    "published": "Mon, 23 Nov 2026 03:52:17 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Tata Steel to buy $1.67 billion stake in India’s largest steel pipe maker; shares plunge nearly 5%",
+    "summary": "Tata Steel will buy a 26.4% stake in India's leading structural steel pipes and tubes maker to boost downstream capacity.",
+    "link": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html",
+    "published": "Mon, 23 Nov 2026 04:26:49 GMT",
+    "source": "CNBC Top"
+   },
+   {
     "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
     "summary": "Clayton’s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions.",
     "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
     "published": "Sun, 22 Nov 2026 17:14:03 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+    "summary": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
+    "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+    "published": "Sat, 21 Nov 2026 16:40:05 GMT",
     "source": "CNBC Top"
    },
    {
@@ -411,20 +432,6 @@
     "source": "CNBC Top"
    },
    {
-    "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-    "summary": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
-    "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-    "published": "Sat, 21 Nov 2026 16:40:05 GMT",
-    "source": "CNBC Top"
-   },
-   {
-    "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
-    "summary": "Saudi Arabia said it destroyed a drone launched by Iran-backed Houthis, while Bahrain said an industrial facility was hit by Iranian projectiles.",
-    "link": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html",
-    "published": "Sun, 22 Nov 2026 13:25:47 GMT",
-    "source": "CNBC Top"
-   },
-   {
     "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
     "summary": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
     "link": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
@@ -436,13 +443,6 @@
     "summary": "This would make the second recent intrusion into the FBI system.",
     "link": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
     "published": "Sat, 21 Nov 2026 16:57:34 GMT",
-    "source": "CNBC Top"
-   },
-   {
-    "title": "S&P 500 correction: Five forces behind the market sell-off",
-    "summary": "The S&amp;P 500 and Dow Jones Industrial Average closed in correction territory, off 10% from their records. The Nasdaq Composite lost its gain for the year.",
-    "link": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
-    "published": "Sat, 21 Nov 2026 11:29:25 GMT",
     "source": "CNBC Top"
    },
    {
@@ -504,116 +504,144 @@
   ],
   "국내주식": [
    {
+    "title": "GS건설, 1.8조원 규모 목동12단지 재건축 시공사 선정",
+    "summary": "(서울=연합뉴스) 임기창 기자 = GS건설은 서울 양천구 목동12단지 재건축 정비사업 시공사로 최종 선정됐다고 23일 밝혔다.",
+    "link": "https://www.yna.co.kr/view/AKR20261123093300003",
+    "published": "Mon, 23 Nov 2026 13:25:18 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "오세훈 서울시장, 주한일본대사 면담…\"日지방정부와 협력 강화\"",
+    "summary": "(서울=연합뉴스) 김동규 기자 = 오세훈 서울시장은 23일 서울시청 집무실에서 미즈시마 코이치 주한일본대사를 만나 서울시와 일본 지방정부 간 교...",
+    "link": "https://www.yna.co.kr/view/AKR20261123089500004",
+    "published": "Mon, 23 Nov 2026 12:31:43 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "유명아동복 '베베드피노' 운영사, 서면 늑장 발급…공정위 제재",
+    "summary": "(세종=연합뉴스) 김수현 기자 = 베베드피노, 아이스비스킷, 캐리마켓 등 유·아동복과 잡화 브랜드를 운영하는 ㈜더캐리[313760]가 수급사업자...",
+    "link": "https://www.yna.co.kr/view/AKR20261123042200002",
+    "published": "Mon, 23 Nov 2026 12:00:06 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "부산 관광업 매출 4년 새 37.3% 증가…외국인 관광객 대만 최다",
+    "summary": "(부산=연합뉴스) 오수희 기자 = 2024년 기준 부산 관광업계 총매출액이 2020년보다 37.3% 늘어난 것으로 나타났다.",
+    "link": "https://www.yna.co.kr/view/AKR20261123048200051",
+    "published": "Mon, 23 Nov 2026 12:00:05 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[게시판] 데이터처, 정부혁신 박람회서 AI기반 업무혁신 사례 소개",
+    "summary": "▲ 국가데이터처는 25일부터 27일까지 경기 고양시 킨텍스에서 열리는 2026 대한민국 정부혁신 박람회에서 &apos;국민과 소통하고 인공지능(AI)으로...",
+    "link": "https://www.yna.co.kr/view/AKR20261123081200002",
+    "published": "Mon, 23 Nov 2026 12:00:01 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "국고채 금리, 위험회피 속 하락세…3년물 장중 연 3.621%",
+    "summary": "(서울=연합뉴스) 강수지 기자 = 23일 국고채 금리는 글로벌 인공지능(AI) 쇼크에 코스피 지수가 급락한 영향을 받아 하락했다.",
+    "link": "https://www.yna.co.kr/view/AKR20261123085000008",
+    "published": "Mon, 23 Nov 2026 11:56:14 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "IPARK현산, 부산 수안1구역 재개발 수주…3천763억 규모",
+    "summary": "(세종=연합뉴스) 오진송 기자 = IPARK현대산업개발이 공사비 3천763억원 규모의 부산 수안1구역 재개발사업 시공권을 확보했다.",
+    "link": "https://www.yna.co.kr/view/AKR20261123079800003",
+    "published": "Mon, 23 Nov 2026 11:54:04 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "대구 재건축·재개발 일조 기준 완화…100%서 80%로",
+    "summary": "(대구=연합뉴스) 박세진 기자 = 대구시가 재건축·재개발 사업의 걸림돌로 작용해 온 일조 심의 기준을 완화해 주택 공급 확대에 나섰다.",
+    "link": "https://www.yna.co.kr/view/AKR20261123084600053",
+    "published": "Mon, 23 Nov 2026 11:48:38 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "럭스코 \"임시주총서 IBKS제24호스팩과 합병 안건 가결\"",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112340546",
+    "published": "Mon, 23 Nov 2026 12:48:09 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "서학 초고수들, 32% 폭락한 반도체 레버리지 ETF 상품 긁어모은 이유는",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611233991i",
+    "published": "Mon, 23 Nov 2026 12:31:20 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "코스피 급락에 국고채 가격 상승세…3년물 연 3.621%",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112340367",
+    "published": "Mon, 23 Nov 2026 12:31:18 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "코스피 2거래일 연속 매도 사이드카…장중 4600선도 무너졌다",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611233972i",
+    "published": "Mon, 23 Nov 2026 11:54:50 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "상하이지수 1년여 만에 3500 아래로…中 안정조치에도 약세",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112338847",
+    "published": "Mon, 23 Nov 2026 11:40:57 +0900",
+    "source": "한국경제 증권"
+   },
+   {
     "title": "[속보] 코스피 5%대 급락…매도 사이드카 발동",
-    "summary": "(",
-    "link": "https://www.yna.co.kr/view/AKR20261123083700008",
-    "published": "Mon, 23 Nov 2026 11:34:49 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "\"과매도 구간…코스피 4,200선까지 열어둬야\" 리서치센터장 긴급진단",
-    "summary": "(서울=연합뉴스) 정회인 기자 = 코스피가 5,000선 붕괴 이후에도 하락세를 이어가는 가운데 국내 주요 증권사 리서치센터장들은 23일 인공지능...",
-    "link": "https://www.yna.co.kr/view/AKR20261123075900008",
-    "published": "Mon, 23 Nov 2026 11:32:35 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "미래운용, 'TIGER 글로벌LLM액티브' 상장…앤트로픽 편입",
-    "summary": "(서울=연합뉴스) 고은지 기자 = 미래에셋자산운용은 앤트로픽 등 주요 거대언어모델(LLM) 관련 기업에 집중적으로 투자하는 &apos;TIGER 글로벌L...",
-    "link": "https://www.yna.co.kr/view/AKR20261123079500008",
-    "published": "Mon, 23 Nov 2026 11:28:57 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "삼성증권 '고객의 소리' 해킹 피해…8천여명 개인정보 유출(종합)",
-    "summary": "(서울=연합뉴스) 김태종 기자 = 최근 금융권의 해킹 피해가 확산하고 있는 가운데 삼성증권[016360]도 일부 시스템에 외부 침입을 당한 것으...",
-    "link": "https://www.yna.co.kr/view/AKR20261123060751008",
-    "published": "Mon, 23 Nov 2026 11:25:54 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "코스피 4%대 하락 4,600대 등락…코스닥 장중 연저점 깨져(종합)",
-    "summary": "(서울=연합뉴스) 곽윤아 기자 = 코스피가 23일 장중 4% 넘게 하락해 4,600대에서 등락하고 있다.",
-    "link": "https://www.yna.co.kr/view/AKR20261123078200008",
-    "published": "Mon, 23 Nov 2026 11:22:07 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "서울도서관, 건립 100년 맞아 리모델링…2029년 6월 완공 목표",
-    "summary": "(서울=연합뉴스) 김동규 기자 = 서울시가 건립 100년을 맞은 옛 서울시청사인 서울도서관을 개방형 독서 공간과 키즈라운지 등을 갖춘 복합 문화...",
-    "link": "https://www.yna.co.kr/view/AKR20261123045700004",
-    "published": "Mon, 23 Nov 2026 11:15:01 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "서울먹거리창업센터→서울그린바이오허브 개편…지원 강화",
-    "summary": "(서울=연합뉴스) 김동규 기자 = 서울시는 기존 서울먹거리창업센터를 &apos;서울그린바이오허브&apos;로 개편해 농생명 관련 기업 육성 지원을 강화한다고 23...",
-    "link": "https://www.yna.co.kr/view/AKR20261123045900004",
-    "published": "Mon, 23 Nov 2026 11:15:00 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "서울미래인재재단, 현직 인사담당자와 장학생 취업 멘토링",
-    "summary": "(서울=연합뉴스) 김동규 기자 = 서울미래인재재단은 지난 13일과 21일 원티드랩과 함께 재단 장학생을 대상으로 &apos;하반기 취업 준비 멘토링데이&apos;...",
-    "link": "https://www.yna.co.kr/view/AKR20261123046000004",
-    "published": "Mon, 23 Nov 2026 11:15:00 +0900",
-    "source": "연합뉴스 경제"
-   },
-   {
-    "title": "초고수들, 네이버·삼성SDS 대거 담아…낙폭 큰 종목들 선별 매수",
     "summary": "",
-    "link": "https://www.hankyung.com/article/202611233723i",
-    "published": "Mon, 23 Nov 2026 11:04:29 +0900",
+    "link": "https://www.hankyung.com/article/2026112339316",
+    "published": "Mon, 23 Nov 2026 11:37:26 +0900",
     "source": "한국경제 증권"
    },
    {
-    "title": "코스피, 장중 3%대 하락 흐름…코스닥은 연중 최저치 추락",
+    "title": "[오전 시황] 10개월 만에 4600선으로 주저앉은 코스피...매도 사이드카 발동",
     "summary": "",
-    "link": "https://www.hankyung.com/article/2026112337206",
-    "published": "Mon, 23 Nov 2026 11:03:21 +0900",
+    "link": "https://www.hankyung.com/article/202611233705i",
+    "published": "Mon, 23 Nov 2026 11:32:00 +0900",
     "source": "한국경제 증권"
    },
    {
-    "title": "증시 무너져도 끄떡없네…미국서 대박 나더니 '급등'",
+    "title": "백약무효 코스피…6년 전 '10조 증안펀드' 효과 논란",
     "summary": "",
-    "link": "https://www.hankyung.com/article/202611233655i",
-    "published": "Mon, 23 Nov 2026 10:39:59 +0900",
+    "link": "https://www.hankyung.com/article/202611233792i",
+    "published": "Mon, 23 Nov 2026 11:26:28 +0900",
     "source": "한국경제 증권"
    },
    {
-    "title": "\"한국은 미니 거품 이미 터졌다\"…美 WSJ의 충격 진단",
-    "summary": "",
-    "link": "https://www.hankyung.com/article/2026112334917",
-    "published": "Mon, 23 Nov 2026 10:11:39 +0900",
-    "source": "한국경제 증권"
+    "title": "에브리봇, ‘머큐어 서울 마곡’서 서비스로봇 실증…호텔 B2B 영역 확대",
+    "summary": "서비스로봇 기업 에브리봇이 기존 시니어 주거시설을 넘어 호텔·호스피탈리티 분야로 기업간거래(B2B) 영역을 넓힌다. 에브리봇은 서울 강서구 마곡지구 호텔 ‘머큐어 서울 마곡’에서 ..",
+    "link": "https://www.mk.co.kr/news/stock/12216042",
+    "published": "Mon, 23 Nov 2026 13:37:49 +09:00",
+    "source": "매일경제 증권"
    },
    {
-    "title": "골드만삭스 \"美 증시 패닉지수 극단 수준…저가 매수 기회\"",
-    "summary": "",
-    "link": "https://www.hankyung.com/article/2026112334847",
-    "published": "Mon, 23 Nov 2026 10:00:29 +0900",
-    "source": "한국경제 증권"
+    "title": "“1년 만기 연 5.9%”…메리츠증권 ‘모음’ 신규 고객 잡는다",
+    "summary": "1년 약정 100만원~300만원까지 계좌 개설 MOUM 신규고객 대상 “친구 초대하면 최대 20만원도”메리츠증권이 금융 플랫폼 ‘모음(MOUM)’ 신규 고객을 대상으로 세전 연 5..",
+    "link": "https://www.mk.co.kr/news/stock/12216038",
+    "published": "Mon, 23 Nov 2026 13:33:38 +09:00",
+    "source": "매일경제 증권"
    },
    {
-    "title": "케이엠에프·에이엔에이치스트럭쳐 코스닥 출격, '거래처 리스크' 시험대",
-    "summary": "",
-    "link": "https://www.hankyung.com/article/202611200148i",
-    "published": "Mon, 23 Nov 2026 09:31:03 +0900",
-    "source": "한국경제 증권"
+    "title": "“연말 증시, 당신의 예상은?”…한양증권 ‘하이 시그널’ 이벤트",
+    "summary": "올해 마지막 거래일의 코스피·코스닥 종가를 예측해 총 1500만원의 상금에 도전하는 이벤트가 열린다. 한양증권 고객이 아니어도 참여할 수 있으며, 5주간 매주 한 차례씩 최대 5번..",
+    "link": "https://www.mk.co.kr/news/stock/12216033",
+    "published": "Mon, 23 Nov 2026 13:25:11 +09:00",
+    "source": "매일경제 증권"
    },
    {
-    "title": "[개장시황] 美 반도체주 폭락에 코스피 4700선으로 후퇴…외국인·기관은 순매수",
-    "summary": "",
-    "link": "https://www.hankyung.com/article/202611233123i",
-    "published": "Mon, 23 Nov 2026 09:31:03 +0900",
-    "source": "한국경제 증권"
-   },
-   {
-    "title": "다 떨어지는데 나 홀로 급등…주가 10% 뛴 '이 종목'",
-    "summary": "",
-    "link": "https://www.hankyung.com/article/2026112332796",
-    "published": "Mon, 23 Nov 2026 09:29:44 +0900",
-    "source": "한국경제 증권"
+    "title": "[속보] 코스피 5%대 급락…매도 사이드카 발동",
+    "summary": "코스피가 23일 장중 5% 넘게 급락하자 프로그램 매도호가 일시효력정지(매도 사이드카)가 발동됐다. 한국거래소에 따르면 이날 오전 11시 33분 51초 코스피200 선물지수 변동으..",
+    "link": "https://www.mk.co.kr/news/stock/12215988",
+    "published": "Mon, 23 Nov 2026 11:44:28 +09:00",
+    "source": "매일경제 증권"
    },
    {
     "title": "한 돈 100만원 넘게 주고 샀는데…금값 폭락에 개미 ‘저가 매수’ 중",
@@ -641,34 +669,6 @@
     "summary": "최재원의 마켓워치지난주 엔비디아의 호실적과 앤트로픽 상장 흥행에도 코스피는 결국 5000선 아래로 밀려났다. 23일에도 급락세가 이어지면서 코스피 4500선마저 위태롭다. 삼성전자..",
     "link": "https://www.mk.co.kr/news/stock/12215898",
     "published": "Mon, 23 Nov 2026 10:43:05 +09:00",
-    "source": "매일경제 증권"
-   },
-   {
-    "title": "피지컬AI 가 밀어올린 알체라…3분기 누적매출 71억",
-    "summary": "학습AI 데이터 구축 분야 132% 늘어AI 기반 얼굴인식, 이미지 분석 솔루션을 제공하는 알체라가 2026년 3분기 누적 연결 매출이 전년 동기 대비 22.3% 늘어난 70억80..",
-    "link": "https://www.mk.co.kr/news/it/12215893",
-    "published": "Mon, 23 Nov 2026 10:40:21 +09:00",
-    "source": "매일경제 증권"
-   },
-   {
-    "title": "靑재정보좌관 “증시 충격 일시적일 수 있어…비관적으로 안 봐”",
-    "summary": "류덕현 청와대 재정기획보좌관은 23일 최근 주식시장 불안에도 반도체 업황을 비관적으로 보지 않는다고 밝혔다. 인공지능(AI) 산업의 성장 흐름과 국내 반도체 기업의 수주 물량 등을..",
-    "link": "https://www.mk.co.kr/news/stock/12215890",
-    "published": "Mon, 23 Nov 2026 10:38:49 +09:00",
-    "source": "매일경제 증권"
-   },
-   {
-    "title": "“어? 100만원 넣었는데 20만원 됐네”…곱버스, ETF 낙폭 순위 ‘싹쓸이’",
-    "summary": "곱버스 5종, 연초 대비 77~79% ‘뚝’ 급락기 레버리지 4종 개인 1.16조 매수 “음의 복리…지수 회복해도 손실 가능”올해 초 ‘곱버스’에 100만원을 넣었다면 이달 기준 ..",
-    "link": "https://www.mk.co.kr/news/stock/12215878",
-    "published": "Mon, 23 Nov 2026 10:26:22 +09:00",
-    "source": "매일경제 증권"
-   },
-   {
-    "title": "[속보] 삼성증권도 해킹 피해…8000여 명 개인정보 유출",
-    "summary": "삼성증권 홈페이지의 ‘고객의 소리(VOC)’ 시스템이 외부 침입을 받아 고객 8241명의 개인정보가 유출됐다. 최근 금융권에서 해킹 피해가 잇따르는 가운데 증권사에서도 고객 정보 ..",
-    "link": "https://www.mk.co.kr/news/stock/12215874",
-    "published": "Mon, 23 Nov 2026 10:16:01 +09:00",
     "source": "매일경제 증권"
    }
   ],
@@ -730,6 +730,20 @@
     "source": "CoinDesk"
    },
    {
+    "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+    "summary": "In a Truth Social post on Monday, Trump said rehiring Jensen Huang would benefit both Nvidia and the US.",
+    "link": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Mon, 23 Nov 2026 03:37:20 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
+    "summary": "Markets and economists widely expect the US Federal Reserve to raise interest rates by 25 basis points in its December meeting.",
+    "link": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Mon, 23 Nov 2026 02:47:39 +0000",
+    "source": "Cointelegraph"
+   },
+   {
     "title": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
     "summary": "Public Citizen traced 66 of 130 qualifying wallets to exchanges that restrict US users, raising questions over who is attending Trump’s memecoin dinner on Sunday. ",
     "link": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -769,20 +783,6 @@
     "summary": "Cyber reported unexpected minting of CYBER tokens on Solana, followed by tokens moving out of its Ethereum bridge lockbox, prompting an investigation.",
     "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "published": "Sun, 22 Nov 2026 07:24:05 +0000",
-    "source": "Cointelegraph"
-   },
-   {
-    "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-    "summary": "Chainflip offered the attacker a 10% bounty to return 90% of the stolen funds by Nov. 23, promising to treat the return as a white-hat recovery and withdraw law enforcement complaints.",
-    "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "published": "Sun, 22 Nov 2026 05:28:43 +0000",
-    "source": "Cointelegraph"
-   },
-   {
-    "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
-    "summary": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis.",
-    "link": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "published": "Sat, 21 Nov 2026 09:48:56 +0000",
     "source": "Cointelegraph"
    }
   ]
