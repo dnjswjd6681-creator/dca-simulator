@@ -7,11 +7,11 @@ on:
   workflow_dispatch:        # Actions 탭에서 수동 실행
     inputs:
       mode:
-        description: "morning(블로그+X) 또는 evening(X)"
+        description: "morning(블로그+X) / evening(X) / resend(오늘 아침 초안 다시 보내기, 비용 0원)"
         required: true
         default: morning
         type: choice
-        options: [morning, evening]
+        options: [morning, evening, resend]
 
 permissions:
   contents: write
@@ -63,7 +63,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py ${{ steps.mode.outputs.mode }}
+        run: |
+          if [ "${{ steps.mode.outputs.mode }}" = "resend" ]; then
+            python main.py morning --resend
+          else
+            python main.py ${{ steps.mode.outputs.mode }}
+          fi
 
       - name: 실패 시 텔레그램 알림
         if: failure()

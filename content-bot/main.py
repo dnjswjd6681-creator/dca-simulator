@@ -13,6 +13,7 @@ from pathlib import Path
 
 import collect
 import config
+import naver_format
 import thumbnail
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -42,12 +43,16 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="Claude 호출 없이 수집 결과와 프롬프트만 저장")
     ap.add_argument("--fixture", help="수집 대신 이 JSON 파일의 데이터를 사용 (테스트용)")
     ap.add_argument("--no-telegram", action="store_true")
+    ap.add_argument("--resend", action="store_true",
+                    help="Claude를 다시 부르지 않고 오늘 저장된 초안을 새 형식으로 다시 보냄 (비용 0원)")
     args = ap.parse_args()
 
     now = dt.datetime.now(KST)
     day_dir = DRAFTS / now.strftime("%Y-%m-%d")
     day_dir.mkdir(parents=True, exist_ok=True)
 
+    if args.resend:
+        args.fixture = str(day_dir / f"data_{args.mode}.json")
     data = json.loads(Path(args.fixture).read_text(encoding="utf-8")) if args.fixture else collect.collect_all()
     (day_dir / f"data_{args.mode}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     counts = {k: len(v) for k, v in data.items() if isinstance(v, list)}
@@ -63,8 +68,13 @@ def main():
         log.info("dry-run: 프롬프트 저장 → %s", day_dir)
         return
 
-    draft = writer.write(args.mode, data, history)
-    (day_dir / f"raw_{args.mode}.txt").write_text(draft.pop("_raw"), encoding="utf-8")
+    raw_file = day_dir / f"raw_{args.mode}.txt"
+    if args.resend:
+        draft = writer.parse_tags(raw_file.read_text(encoding="utf-8"))
+        history = [h for h in history if not (h["date"] == now.strftime("%Y-%m-%d") and h["mode"] == args.mode)]
+    else:
+        draft = writer.write(args.mode, data, history)
+        raw_file.write_text(draft.pop("_raw"), encoding="utf-8")
 
     entry = {"date": now.strftime("%Y-%m-%d"), "mode": args.mode, "category": draft.get("category", "")}
     files = {}
@@ -76,6 +86,9 @@ def main():
         files["thumb"] = thumbnail.make(draft.get("thumbnail_line1", draft.get("blog_title", "")),
                                         draft.get("thumbnail_line2", ""), draft.get("category", ""),
                                         now.strftime("%Y.%m.%d"), config.BRAND_NAME, day_dir / "thumbnail.png")
+        naver_text, files["tables"] = naver_format.convert(draft["blog_body"], day_dir)
+        files["naver"] = day_dir / "blog_naver.txt"
+        files["naver"].write_text(f"{naver_text}\n\n{draft.get('hashtags', '')}\n", encoding="utf-8")
         entry["title"] = draft.get("blog_title", "")
     x_file = day_dir / f"x_{args.mode}.txt"
     x_file.write_text(draft["x_post"], encoding="utf-8")
@@ -93,13 +106,17 @@ def main():
     import telegram
     md = now.strftime("%m/%d")
     if args.mode == "morning":
+        n_tab = len(files.get("tables", []))
         telegram.send_text(f"☀️ {md} 아침 초안 도착\n블로그 1개 + X 1개 · 주제: {draft.get('category', '')}\n"
-                           f"아래 순서: ① 썸네일 ② 블로그 제목 ③ 본문 ④ 원본 파일 ⑤ X 글")
+                           f"순서: ① 썸네일 ② 표 이미지 {n_tab}장 ③ 블로그 제목 ④ 본문 ⑤ X 글")
         if "thumb" in files:
-            telegram.send_photo(files["thumb"], caption="① 썸네일")
+            telegram.send_photo(files["thumb"], caption="① 썸네일 (블로그 대표 이미지)")
+            for k, img in enumerate(files["tables"], 1):
+                telegram.send_photo(img, caption=f"② 표 이미지 {k} → 본문의 '📊 [표 이미지 {k} 넣기]' 자리에 넣으세요")
+            telegram.send_text("③ 제목 ↓")
             telegram.send_text(draft.get("blog_title", ""))
-            telegram.send_text(f"{draft['blog_body']}\n\n{draft.get('hashtags', '')}")
-            telegram.send_document(files["blog"], caption="④ 블로그 원본 (.md)")
+            telegram.send_text("④ 본문 ↓ (네이버에 그대로 붙여넣기)")
+            telegram.send_text(files["naver"].read_text(encoding="utf-8"))
         telegram.send_text("⑤ 🐦 X 초안 ↓ (그대로 복사해서 쓰세요)")
     else:
         telegram.send_text(f"🌆 {md} 오후 X 초안 ↓ (그대로 복사해서 쓰세요)")
