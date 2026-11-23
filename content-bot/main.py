@@ -106,13 +106,13 @@ def main():
     import telegram
     md = now.strftime("%m/%d")
     if args.mode == "morning":
-        n_tab = len(files.get("tables", []))
+        n_img = len(files.get("tables", []))
         telegram.send_text(f"☀️ {md} 아침 초안 도착\n블로그 1개 + X 1개 · 주제: {draft.get('category', '')}\n"
-                           f"순서: ① 썸네일 ② 표 이미지 {n_tab}장 ③ 블로그 제목 ④ 본문 ⑤ X 글")
+                           f"순서: ① 썸네일 ② 본문 이미지 {n_img}장 ③ 블로그 제목 ④ 본문 ⑤ X 글")
         if "thumb" in files:
             telegram.send_photo(files["thumb"], caption="① 썸네일 (블로그 대표 이미지)")
             for k, img in enumerate(files["tables"], 1):
-                telegram.send_photo(img, caption=f"② 표 이미지 {k} → 본문의 '📊 [표 이미지 {k} 넣기]' 자리에 넣으세요")
+                telegram.send_photo(img, caption=f"② 이미지 {k} → 본문의 '📷 [이미지 {k} 넣기]' 자리에 넣으세요")
             telegram.send_text("③ 제목 ↓")
             telegram.send_text(draft.get("blog_title", ""))
             telegram.send_text("④ 본문 ↓ (네이버에 그대로 붙여넣기)")

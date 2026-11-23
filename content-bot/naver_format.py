@@ -9,6 +9,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
+import images as img_mod
 from thumbnail import _font
 
 UP, DOWN = (224, 49, 49), (25, 113, 194)  # 한국식: 상승 빨강, 하락 파랑
@@ -81,10 +82,22 @@ def convert(body: str, out_dir: Path) -> tuple[str, list[Path]]:
                 i += 1
             rows = [r for r in block if not _is_separator(r)]
             n = len(images) + 1
-            images.append(table_image(rows, out_dir / f"table_{n}.png"))
-            out_lines.append(f"📊 [표 이미지 {n} 넣기]")
+            images.append(table_image(rows, out_dir / f"image_{n}.png"))
+            out_lines.append(f"📷 [이미지 {n} 넣기]")
             continue
         line = lines[i]
+        d = re.match(r"^\s*\[(차트|카드|이미지)\s*[:：]\s*(.+?)\]\s*$", line)
+        if d:
+            kind, spec = d.group(1), d.group(2)
+            made = img_mod.from_directive(kind, spec, out_dir / f"image_{len(images) + 1}.png")
+            if made:
+                images.append(made)
+                out_lines.append(f"📷 [이미지 {len(images)} 넣기]")
+            else:
+                desc = spec.split("|")[-1].strip() if kind == "차트" else spec
+                out_lines.append(f"💡 추천 이미지 (직접 넣기): {desc}")
+            i += 1
+            continue
         m = re.match(r"^\s{0,3}#{1,6}\s+(.*)$", line)
         if m:
             title = m.group(1).strip()
