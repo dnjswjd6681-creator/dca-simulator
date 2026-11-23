@@ -1,0 +1,16 @@
+참고: 받은 데이터에는 오늘(11/24) 국내장 마감 수치가 없습니다. 코스피·국내 종목 데이터는 11/20이 마지막이고, 웹검색도 사용 한도 초과로 확인하지 못했습니다. 그래서 국내장 대신 크립토 글을 썼습니다. 아래 숫자는 모두 오늘 새벽 04:27(KST)에 수집된 데이터라 아시아 시간대 흐름은 아닙니다. 올리기 전에 현재 시세를 다시 확인해 주세요. 아침 글과 겹치지 않도록 엔비디아 대신 나스닥과 비교했습니다.
+
+<category>크립토</category>
+<x_post>나스닥 +6.7% 날, 비트코인은 +1.4%.
+
+$55K 바닥에서 $64.5K까지 튀었다가 다시 $61K대로 밀림.
+그 사이 4시간 동안 청산된 포지션만 5억 달러 넘음.
+
+공포탐욕지수는 최근 7일째 10~12, 극단적 공포 그대로임.
+스테이블코인 공급은 1주일 새 -43.5억 달러.
+
+위험자산 랠리가 와도 코인으로는 돈이 안 들어오는 중.
+가격 반등보다 스테이블코인 유입이 다시 늘어나는지부터 봐야 함.</x_post>
+<sources>https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations
+https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank
+market_data (crypto prices / fear_greed / stablecoin_supply, ^IXIC) 2026-11-24 04:27 KST 수집분</sources>
