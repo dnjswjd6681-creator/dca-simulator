@@ -11,6 +11,16 @@ RULES = {
 }
 
 
+TOKEN_RE = re.compile(r"\d{6,}:[A-Za-z0-9_\-]{30,}")
+
+
+def telegram_token() -> str:
+    """토큰 칸에 주소 전체(https://api.telegram.org/bot.../getUpdates)를 넣었어도 토큰만 뽑아 쓴다."""
+    raw = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    m = TOKEN_RE.search(raw)
+    return m.group(0) if m else raw
+
+
 def check() -> list[str]:
     problems = []
     for name, (pattern, desc) in RULES.items():
@@ -22,6 +32,9 @@ def check() -> list[str]:
         notes = []
         if val != raw:
             notes.append("앞뒤에 띄어쓰기/줄바꿈이 있었어요 (자동으로 지우고 진행)")
+        if name == "TELEGRAM_BOT_TOKEN" and telegram_token() != val:
+            notes.append("주소 전체가 들어 있어서 토큰 부분만 자동으로 뽑아 썼어요")
+            val = telegram_token()
         if re.search(r"\s", val):
             notes.append("중간에 띄어쓰기나 줄바꿈이 있어요")
         if any(ord(c) > 127 for c in val):

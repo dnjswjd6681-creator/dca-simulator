@@ -6,11 +6,13 @@ from pathlib import Path
 
 import requests
 
+from secrets_check import telegram_token
+
 LIMIT = 4000  # 텔레그램 메시지 최대 4096자
 
 
 def _api(method: str, **kw):
-    token = os.environ["TELEGRAM_BOT_TOKEN"].strip()
+    token = telegram_token()
     r = requests.post(f"https://api.telegram.org/bot{token}/{method}", timeout=60, **kw)
     if not r.ok:
         raise RuntimeError(f"텔레그램 {method} 실패: {r.status_code} {r.text[:300]}")
