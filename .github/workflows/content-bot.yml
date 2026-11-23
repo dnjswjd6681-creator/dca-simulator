@@ -49,6 +49,14 @@ jobs:
             echo "mode=evening" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: 비밀번호 3개 모양 점검
+        working-directory: content-bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python secrets_check.py
+
       - name: 초안 작성 & 텔레그램 전송
         working-directory: content-bot
         env:
@@ -63,8 +71,10 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+          TOKEN="$(printf '%s' "$TELEGRAM_BOT_TOKEN" | tr -d '[:space:]')"
+          CHAT="$(printf '%s' "$TELEGRAM_CHAT_ID" | tr -d '[:space:]')"
+          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
             --data-urlencode "text=⚠️ 초안 생성 실패 (${{ steps.mode.outputs.mode }}). 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
       - name: 초안 보관 (drafts/ 폴더에 커밋)

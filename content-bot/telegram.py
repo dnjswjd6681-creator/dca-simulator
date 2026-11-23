@@ -10,7 +10,7 @@ LIMIT = 4000  # 텔레그램 메시지 최대 4096자
 
 
 def _api(method: str, **kw):
-    token = os.environ["TELEGRAM_BOT_TOKEN"]
+    token = os.environ["TELEGRAM_BOT_TOKEN"].strip()
     r = requests.post(f"https://api.telegram.org/bot{token}/{method}", timeout=60, **kw)
     if not r.ok:
         raise RuntimeError(f"텔레그램 {method} 실패: {r.status_code} {r.text[:300]}")
@@ -18,7 +18,7 @@ def _api(method: str, **kw):
 
 
 def _chat():
-    return os.environ["TELEGRAM_CHAT_ID"]
+    return os.environ["TELEGRAM_CHAT_ID"].strip()
 
 
 def _chunks(text: str):

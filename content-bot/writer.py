@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import logging
 import re
 from pathlib import Path
@@ -68,7 +69,7 @@ def build_user_message(mode: str, data: dict, history: list[dict]) -> str:
 
 
 def _call(user_msg: str, mode: str) -> str:
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"].strip())
     tools = []
     max_uses = config.WEB_SEARCH_MAX_USES.get(mode, 0)
     if max_uses > 0:
