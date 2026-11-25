@@ -1,0 +1,791 @@
+{
+ "collected_at_kst": "2026-11-25 13:52",
+ "us_indices": [
+  {
+   "name": "S&P500",
+   "symbol": "^GSPC",
+   "date": "2026-11-24",
+   "close": 7201.09,
+   "chg_1d_%": -0.5,
+   "chg_5d_%": -1.9,
+   "chg_1m_%": -6.2
+  },
+  {
+   "name": "나스닥",
+   "symbol": "^IXIC",
+   "date": "2026-11-24",
+   "close": 23733.54,
+   "chg_1d_%": -1.48,
+   "chg_5d_%": -2.45,
+   "chg_1m_%": -9.31
+  },
+  {
+   "name": "다우",
+   "symbol": "^DJI",
+   "date": "2026-11-24",
+   "close": 50018.7,
+   "chg_1d_%": 0.85,
+   "chg_5d_%": -1.46,
+   "chg_1m_%": -4.47
+  },
+  {
+   "name": "필라델피아반도체",
+   "symbol": "^SOX",
+   "date": "2026-11-24",
+   "close": 8832.5,
+   "chg_1d_%": -7.88,
+   "chg_5d_%": -8.4,
+   "chg_1m_%": -20.31
+  },
+  {
+   "name": "러셀2000",
+   "symbol": "^RUT",
+   "date": "2026-11-24",
+   "close": 2684.94,
+   "chg_1d_%": 0.57,
+   "chg_5d_%": -0.63,
+   "chg_1m_%": -3.64
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "date": "2026-11-24",
+   "close": 26.36,
+   "chg_1d_%": -0.98,
+   "chg_5d_%": 3.53,
+   "chg_1m_%": 43.34
+  }
+ ],
+ "us_stocks": [
+  {
+   "name": "엔비디아",
+   "symbol": "NVDA",
+   "date": "2026-11-24",
+   "close": 155.38,
+   "chg_1d_%": -5.86,
+   "chg_5d_%": -0.05,
+   "chg_1m_%": -28.06
+  },
+  {
+   "name": "애플",
+   "symbol": "AAPL",
+   "date": "2026-11-24",
+   "close": 354.07,
+   "chg_1d_%": 1.43,
+   "chg_5d_%": 0.61,
+   "chg_1m_%": 2.95
+  },
+  {
+   "name": "마이크로소프트",
+   "symbol": "MSFT",
+   "date": "2026-11-24",
+   "close": 496.13,
+   "chg_1d_%": 0.74,
+   "chg_5d_%": -2.0,
+   "chg_1m_%": -6.85
+  },
+  {
+   "name": "알파벳",
+   "symbol": "GOOGL",
+   "date": "2026-11-24",
+   "close": 279.05,
+   "chg_1d_%": -1.08,
+   "chg_5d_%": -0.41,
+   "chg_1m_%": -11.92
+  },
+  {
+   "name": "아마존",
+   "symbol": "AMZN",
+   "date": "2026-11-24",
+   "close": 252.29,
+   "chg_1d_%": -1.21,
+   "chg_5d_%": -2.17,
+   "chg_1m_%": 1.28
+  },
+  {
+   "name": "메타",
+   "symbol": "META",
+   "date": "2026-11-24",
+   "close": 589.82,
+   "chg_1d_%": -1.3,
+   "chg_5d_%": -4.69,
+   "chg_1m_%": -6.46
+  },
+  {
+   "name": "테슬라",
+   "symbol": "TSLA",
+   "date": "2026-11-24",
+   "close": 384.68,
+   "chg_1d_%": -0.2,
+   "chg_5d_%": 1.2,
+   "chg_1m_%": -1.77
+  },
+  {
+   "name": "브로드컴",
+   "symbol": "AVGO",
+   "date": "2026-11-24",
+   "close": 301.08,
+   "chg_1d_%": -3.98,
+   "chg_5d_%": -11.86,
+   "chg_1m_%": -8.53
+  },
+  {
+   "name": "팔란티어",
+   "symbol": "PLTR",
+   "date": "2026-11-24",
+   "close": 161.18,
+   "chg_1d_%": 1.14,
+   "chg_5d_%": 2.95,
+   "chg_1m_%": -18.94
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "date": "2026-11-24",
+   "close": 349.2,
+   "chg_1d_%": -3.96,
+   "chg_5d_%": -2.92,
+   "chg_1m_%": -17.71
+  }
+ ],
+ "kr_indices": [
+  {
+   "name": "코스피",
+   "symbol": "^KS11",
+   "date": "2026-11-25",
+   "close": 4725.46,
+   "chg_1d_%": -5.6,
+   "chg_5d_%": -6.75,
+   "chg_1m_%": -16.19
+  },
+  {
+   "name": "코스닥",
+   "symbol": "^KQ11",
+   "date": "2026-11-25",
+   "close": 652.79,
+   "chg_1d_%": -1.97,
+   "chg_5d_%": -1.51,
+   "chg_1m_%": -12.24
+  }
+ ],
+ "kr_stocks": [
+  {
+   "name": "삼성전자",
+   "symbol": "005930.KS",
+   "date": "2026-11-25",
+   "close": 172200.0,
+   "chg_1d_%": -9.08,
+   "chg_5d_%": -11.56,
+   "chg_1m_%": -22.43
+  },
+  {
+   "name": "SK하이닉스",
+   "symbol": "000660.KS",
+   "date": "2026-11-25",
+   "close": 1047000.0,
+   "chg_1d_%": -9.59,
+   "chg_5d_%": -8.48,
+   "chg_1m_%": -21.92
+  },
+  {
+   "name": "LG에너지솔루션",
+   "symbol": "373220.KS",
+   "date": "2026-11-25",
+   "close": 310000.0,
+   "chg_1d_%": -1.43,
+   "chg_5d_%": 1.64,
+   "chg_1m_%": -18.95
+  },
+  {
+   "name": "현대차",
+   "symbol": "005380.KS",
+   "date": "2026-11-25",
+   "close": 271000.0,
+   "chg_1d_%": -1.45,
+   "chg_5d_%": 1.5,
+   "chg_1m_%": -6.71
+  },
+  {
+   "name": "삼성바이오로직스",
+   "symbol": "207940.KS",
+   "date": "2026-11-25",
+   "close": 1337000.0,
+   "chg_1d_%": 3.64,
+   "chg_5d_%": -2.12,
+   "chg_1m_%": -2.69
+  },
+  {
+   "name": "NAVER",
+   "symbol": "035420.KS",
+   "date": "2026-11-25",
+   "close": 159800.0,
+   "chg_1d_%": 2.37,
+   "chg_5d_%": -6.17,
+   "chg_1m_%": -8.32
+  }
+ ],
+ "macro": [
+  {
+   "name": "원/달러",
+   "symbol": "KRW=X",
+   "date": "2026-11-25",
+   "close": 1342.98,
+   "chg_1d_%": 0.15,
+   "chg_5d_%": 0.75,
+   "chg_1m_%": 1.37
+  },
+  {
+   "name": "달러인덱스",
+   "symbol": "DX-Y.NYB",
+   "date": "2026-11-24",
+   "close": 103.97,
+   "chg_1d_%": -0.33,
+   "chg_5d_%": 0.47,
+   "chg_1m_%": 1.97
+  },
+  {
+   "name": "미국10년물(%)",
+   "symbol": "^TNX",
+   "date": "2026-11-24",
+   "close": 4.9,
+   "chg_1d_%": -0.28,
+   "chg_5d_%": -3.9,
+   "chg_1m_%": -1.64
+  },
+  {
+   "name": "WTI유가",
+   "symbol": "CL=F",
+   "date": "2026-11-24",
+   "close": 80.71,
+   "chg_1d_%": 0.67,
+   "chg_5d_%": -6.16,
+   "chg_1m_%": -20.69
+  },
+  {
+   "name": "금",
+   "symbol": "GC=F",
+   "date": "2026-11-24",
+   "close": 3546.4,
+   "chg_1d_%": -2.88,
+   "chg_5d_%": -8.22,
+   "chg_1m_%": -12.18
+  }
+ ],
+ "crypto": {
+  "total_mcap_usd_trillion": 2.051,
+  "mcap_chg_24h_%": -4.57,
+  "btc_dominance_%": 57.68,
+  "eth_dominance_%": 9.83,
+  "prices": {
+   "bitcoin": {
+    "usd": 58925,
+    "krw": 79121171,
+    "chg_24h_%": -2.37
+   },
+   "ethereum": {
+    "usd": 1653.06,
+    "krw": 2219635,
+    "chg_24h_%": -2.71
+   },
+   "solana": {
+    "usd": 68.49,
+    "krw": 91963,
+    "chg_24h_%": -4.26
+   },
+   "ripple": {
+    "usd": 0.915981,
+    "krw": 1229.93,
+    "chg_24h_%": -3.72
+   }
+  },
+  "fear_greed": [
+   {
+    "value": 13,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 10,
+    "label": "Extreme Fear"
+   }
+  ],
+  "stablecoin_supply_usd_billion": 282.4,
+  "stablecoin_7d_chg_usd_billion": -3.82
+ },
+ "news": {
+  "미국주식": [
+   {
+    "title": "AI debt markets shudder as Nvidia's top 'banker' returns",
+    "summary": "Fears about some companies' AI debt ramped higher Tuesday, a day after Jensen Huang's return as Nvidia CEO.",
+    "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+    "published": "Tue, 24 Nov 2026 21:52:05 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+    "summary": "The product, the first one beyond event contracts, was introduced in May.",
+    "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+    "published": "Tue, 24 Nov 2026 23:03:24 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+    "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+    "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+    "published": "Mon, 23 Nov 2026 22:43:38 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The biggest money-making energy trade looks over. What to buy instead",
+    "summary": "The epic boom in refinery-related stocks is unwinding.",
+    "link": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
+    "published": "Mon, 23 Nov 2026 12:00:20 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+    "summary": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+    "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+    "published": "Sun, 22 Nov 2026 12:13:56 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The Nasdaq is in freefall. Here's one stock to look at",
+    "summary": "Elevated options premiums are creating an opportunity in Amazon",
+    "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+    "published": "Sun, 22 Nov 2026 12:10:39 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "summary": "Odds that the S&amp;P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "published": "Fri, 20 Nov 2026 19:59:03 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+    "summary": "Anthropic options list Monday. They will likely be expensive",
+    "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+    "published": "Fri, 20 Nov 2026 15:12:40 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+    "summary": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+    "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+    "published": "Tue, 24 Nov 2026 23:13:49 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+    "summary": "This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.",
+    "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+    "published": "Wed, 25 Nov 2026 02:36:43 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
+    "summary": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
+    "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
+    "published": "Wed, 25 Nov 2026 04:06:01 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+    "summary": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+    "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+    "published": "Wed, 25 Nov 2026 03:52:03 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+    "summary": "Huawei was found guilty of bank fraud, money laundering and trade secret theft conspiracy in a U.S. trial.",
+    "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+    "published": "Wed, 25 Nov 2026 02:43:33 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+    "summary": "Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.",
+    "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+    "published": "Wed, 25 Nov 2026 02:09:45 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+    "summary": "Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.",
+    "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+    "published": "Tue, 24 Nov 2026 21:13:39 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+    "summary": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+    "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+    "published": "Wed, 25 Nov 2026 01:13:56 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+    "summary": "“Given my age, I never make a major new purchase without thinking about the future.”",
+    "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 02:00:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Dell’s stock rises as the AI boom helps sales more than double",
+    "summary": "Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”",
+    "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 01:11:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+    "summary": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
+    "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 00:05:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+    "summary": "Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.",
+    "link": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+    "published": "Tue, 24 Nov 2026 23:11:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+    "summary": "Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.",
+    "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+    "published": "Tue, 24 Nov 2026 21:53:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Anthropic’s stock just broke below its IPO price for the first time",
+    "summary": "Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.",
+    "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+    "published": "Tue, 24 Nov 2026 21:46:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+    "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+    "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+    "published": "Tue, 24 Nov 2026 21:45:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
+    "summary": "Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”",
+    "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
+    "published": "Tue, 24 Nov 2026 21:31:00 GMT",
+    "source": "MarketWatch"
+   }
+  ],
+  "국내주식": [
+   {
+    "title": "KB국민은행, '2026-2차 공동구매정기예금'…최고 연 3.9%",
+    "summary": "(서울=연합뉴스) 이도흔 기자 = KB국민은행은 판매 금액에 따라 차등금리를 제공하는 정기예금 상품 &apos;2026-2차 공동구매 정기예금&apos;을 출시했...",
+    "link": "https://www.yna.co.kr/view/AKR20261125103500002",
+    "published": "Wed, 25 Nov 2026 13:45:45 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "역도·레슬링, IBK기업은행과 후원 협약…3년간 최대 14억원",
+    "summary": "(서울=연합뉴스) 이대호 기자 = 대한역도연맹은 24일 서울 을지로 IBK기업은행 본점에서 IBK기업은행, 대한레슬링협회와 역도·레슬링 종목 공...",
+    "link": "https://www.yna.co.kr/view/AKR20261125103700007",
+    "published": "Wed, 25 Nov 2026 13:45:18 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "양주시, 산북 도시재생사업 성과공유회 열어",
+    "summary": "(양주=연합뉴스) 노승혁 기자 = 경기 양주시는 25∼27일 산북동 샘내마을 도시재생사업을 통해 변화한 마을의 모습과 지난 4년간의 주요 성과를...",
+    "link": "https://www.yna.co.kr/view/AKR20261125103200060",
+    "published": "Wed, 25 Nov 2026 13:45:09 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "소상공인협회 \"소상공인 줄폐업 위기…노동법 개정 중단해야\"",
+    "summary": "(서울=연합뉴스) 이상서 기자 = 송치영 소상공인연합회장은 25일 소상공인 811만명의 생존권 사수를 위해 정부의 노동관계법 개정 추진을 중단하...",
+    "link": "https://www.yna.co.kr/view/AKR20261125101100030",
+    "published": "Wed, 25 Nov 2026 13:43:53 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "중견기업 3분기 수출 368억달러…2개 분기 연속 역대 최고",
+    "summary": "(세종=연합뉴스) 신창용 기자 = 국내 중견기업의 올해 3분기 수출이 반도체 호조에 힘입어 2개 분기 연속 역대 최고치를 경신했다.",
+    "link": "https://www.yna.co.kr/view/AKR20261125102600003",
+    "published": "Wed, 25 Nov 2026 13:42:44 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "카카오뱅크, 자사주 27만주 소각 결정…66억원 규모",
+    "summary": "(서울=연합뉴스) 이도흔 기자 = 카카오뱅크[323410]는 66억원 규모의 자사주 소각을 결정했다고 25일 밝혔다.",
+    "link": "https://www.yna.co.kr/view/AKR20261125101700002",
+    "published": "Wed, 25 Nov 2026 13:36:41 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "박재호 중진공 이사장 \"해외 지원거점 사수…청창사 예산 확보\"",
+    "summary": "(서울=연합뉴스) 구정모 기자 = 박재호 중소벤처기업진흥공단 신임 이사장은 25일 중소·벤처기업에 특화된 해외 진출 지원 거점의 독자적 기능을 ...",
+    "link": "https://www.yna.co.kr/view/AKR20261125098400030",
+    "published": "Wed, 25 Nov 2026 13:36:24 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "[게시판] KB국민은행, 한국무역협회와 국내 수출기업 금융지원",
+    "summary": "▲ KB국민은행은 24일부터 25일까지 한국무역협회가 개최한 해외 바이어 초청 수출상담회 &apos;코리아 그랜드 소싱페어&apos;에 참여해 국내 수출기업을 위...",
+    "link": "https://www.yna.co.kr/view/AKR20261125099600002",
+    "published": "Wed, 25 Nov 2026 13:36:13 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "하루 만에 천당에서 지옥으로…삼전닉스 개미들 '눈물' [분석+]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112591656",
+    "published": "Wed, 25 Nov 2026 11:49:47 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "[오전시황] 반도체주 충격에 코스피 5.65% 급락...바이오·화장품株는 급등",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611259156i",
+    "published": "Wed, 25 Nov 2026 11:30:42 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "NH아문디, 'HANARO 미국에이전틱AI TOP2+' ETF에 앤트로픽 편입",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112590396",
+    "published": "Wed, 25 Nov 2026 11:04:30 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "\"급락을 매수 기회로\"…초고수 투자자, 삼전닉스 담았다",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611258961i",
+    "published": "Wed, 25 Nov 2026 10:56:01 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "저점 대비 두 배 뛴 코스맥스…증권가 \"더 오른다\"",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611259005i",
+    "published": "Wed, 25 Nov 2026 10:53:53 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "한투운용, 전주사무소 개소…\"국민연금과 협력 강화 기대\"",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112590086",
+    "published": "Wed, 25 Nov 2026 10:52:13 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "\"외국인 통장에 15.8조 꽂힌다\"…삼전닉스 특별배당에 '긴장'",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611258879i",
+    "published": "Wed, 25 Nov 2026 10:44:05 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "'불륜 스캔들'에도 돌아온 젠슨황 \"행동강령 위반 용납 안 돼\"",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112589107",
+    "published": "Wed, 25 Nov 2026 10:27:43 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "뉴온, ‘목련꽃봉오리추출물’ 담은 잇몸 건기식 ‘잇몸탄탄’ 출시",
+    "summary": "뉴온은 개별인정형 원료 ‘목련꽃봉오리추출물’을 적용한 잇몸 건강기능식품 ‘잇몸탄탄’을 출시했다고 25일 밝혔다. 목련꽃봉오리추출물은 산림청·단국대 약학대와 공동 연구로 개발된 식물..",
+    "link": "https://www.mk.co.kr/news/stock/12218008",
+    "published": "Wed, 25 Nov 2026 13:49:33 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "증시는 급락하는데 보안株는 ‘불기둥’…해킹 공포에 나홀로 급등",
+    "summary": "국내외에서 해킹으로 인한 정보 유출 사고가 잇따르면서 국내 정보보안 관련주가 강세를 보이고 있다. 25일 한국거래소에 따르면 이날 오전 11시9분 현재 안랩은 전 거래일보다 17...",
+    "link": "https://www.mk.co.kr/news/stock/12217941",
+    "published": "Wed, 25 Nov 2026 11:34:53 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "AI쇼크 현실로…“신입 회계사 채용 수요 매년 최대 8.5% 감소”",
+    "summary": "회계기준원, 빅4 등 5곳 심층 조사 제도적 제약 없으면 3년 후 23% 감소 회계법인 인력구조도 항아리형 전환 금융위, 회계사 선발 3년 연속 감축인공지능(AI) 확산으로 국내 ..",
+    "link": "https://www.mk.co.kr/news/stock/12217920",
+    "published": "Wed, 25 Nov 2026 11:23:04 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "금리·AI 수익성 우려에 관세까지 … 여의도 족집게 “반등 시그널 이때 나온다”",
+    "summary": "미국 증시가 하루 만에 상승세를 반납하고 급락하면서 국내 증시도 충격을 받고 있다. 금리 상승 우려와 인공지능(AI) 투자 수익성 논란, 미국의 추가 관세 가능성까지 악재가 겹치면..",
+    "link": "https://www.mk.co.kr/news/stock/12217833",
+    "published": "Wed, 25 Nov 2026 10:20:55 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "7%대 하락한 삼성전자·SK하이닉스 담은 초고수들…셀트리온은 순매도 1위 [주식 초고수는 지금]",
+    "summary": "주식투자 수익률 상위 1% 초고수들이 25일 장 초반 나란히 7%대 하락한 삼성전자와 SK하이닉스를 가장 많이 사들였다. 순매도 1위는 셀트리온이었다. 미래에셋증권에 따르면 이날 ..",
+    "link": "https://www.mk.co.kr/news/stock/12217831",
+    "published": "Wed, 25 Nov 2026 10:18:24 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "다올투자증권, 인수합병 시장 등판 소식에 22%대 급등",
+    "summary": "다올투자증권이 새 주인을 찾는단 소식에 급등하고 있다. 25일 오전 9시 54분 현재 다올투자증권은 전일 대비 705원(22.17%) 오른 3885원에 거래되고 있다. 이는 다올투..",
+    "link": "https://www.mk.co.kr/news/stock/12217809",
+    "published": "Wed, 25 Nov 2026 10:08:45 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "[MK시그널] 콜스 매도신호 포착, 수익률 16% 달성",
+    "summary": "안녕하세요. 미국 주식 핫 이슈 종목을 분석해드리는 AI 기자 ‘MK시그널’입니다. 24일, 콜스(KSS)가 MK시그널에서 매도 신호가 포착돼 수익률 16.04% 달성했습니다. 콜..",
+    "link": "https://www.mk.co.kr/news/stock/12217806",
+    "published": "Wed, 25 Nov 2026 10:04:05 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "[MK시그널] 실리콘투, K-뷰티 신흥시장 기대감에 주가 상승세... MK시그널 추천 후 상승률 21.67% 기록",
+    "summary": "11월 25일 실리콘투(257720)가 상승 중이다. 전 거래일 실리콘투 주가는 종가기준 25,150원 상승으로 마감했다. 현재 27,850원으로 (9시 12분 기준) 전일 종가 ..",
+    "link": "https://www.mk.co.kr/news/stock/12217802",
+    "published": "Wed, 25 Nov 2026 10:01:22 +09:00",
+    "source": "매일경제 증권"
+   }
+  ],
+  "크립토": [
+   {
+    "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
+    "published": "Wed, 25 Nov 2026 04:50:08 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one",
+    "published": "Wed, 25 Nov 2026 03:35:20 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+    "published": "Tue, 24 Nov 2026 17:50:08 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+    "published": "Tue, 24 Nov 2026 16:00:25 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Anchorage Digital to unveil new asset-management subsidiary",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/24/anchorage-digital-to-unveil-new-asset-management-subsidiary",
+    "published": "Tue, 24 Nov 2026 15:06:32 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/24/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
+    "published": "Tue, 24 Nov 2026 14:40:53 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+    "published": "Tue, 24 Nov 2026 12:47:49 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
+    "summary": "",
+    "link": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+    "published": "Tue, 24 Nov 2026 12:47:40 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+    "summary": "The president’s remarks come days before Jensen Huang is due to face congressional questioning over national security concerns and US chip export controls.",
+    "link": "https://cointelegraph.com/news/trump-willing-to-pardon-jensen-huang-but-says-it-wont-be-necessary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 04:14:42 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+    "summary": "The Bitcoin miner sold 2,102 BTC while it produced just 1,708 BTC in the September quarter.",
+    "link": "https://cointelegraph.com/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 01:40:59 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Hackers breach CIA intelligence network in latest US cyberattack",
+    "summary": "The reported breach follows cyber incidents involving the FBI, Department of Homeland Security and Department of Agriculture.",
+    "link": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 23:48:16 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Here’s what happened in crypto today",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 22:12:10 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+    "summary": "Authorities from 11 countries worked with Binance, Coinbase and Chainalysis to trace financial transactions and disrupt illegal streaming services.",
+    "link": "https://cointelegraph.com/news/europol-crypto-trail-streaming-piracy-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 21:50:25 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+    "summary": "Utah’s attorney general warned that the criminal charges could be refiled if Kalshi resumes operations in the state, while separate civil litigation remains unresolved.",
+    "link": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 20:48:27 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+    "summary": "The crypto asset manager warned that Bitcoin’s downturn could persist amid weak investor demand, while forecasting an uneven recovery across crypto sectors.",
+    "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 19:44:23 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+    "summary": "Coldcard maker Coinkite explained why years of security checks failed to catch the flaw and said it has yet to decide on compensation for affected customers.",
+    "link": "https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Tue, 24 Nov 2026 19:04:26 +0000",
+    "source": "Cointelegraph"
+   }
+  ]
+ },
+ "youtube": []
+}
