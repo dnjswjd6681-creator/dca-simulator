@@ -1,0 +1,735 @@
+{
+ "collected_at_kst": "2026-11-26 13:07",
+ "us_indices": [
+  {
+   "name": "S&P500",
+   "symbol": "^GSPC",
+   "date": "2026-11-25",
+   "close": 7182.78,
+   "chg_1d_%": -0.25,
+   "chg_5d_%": -1.92,
+   "chg_1m_%": -6.99
+  },
+  {
+   "name": "나스닥",
+   "symbol": "^IXIC",
+   "date": "2026-11-25",
+   "close": 23585.8,
+   "chg_1d_%": -0.62,
+   "chg_5d_%": -3.46,
+   "chg_1m_%": -10.92
+  },
+  {
+   "name": "다우",
+   "symbol": "^DJI",
+   "date": "2026-11-25",
+   "close": 50182.95,
+   "chg_1d_%": 0.33,
+   "chg_5d_%": -0.03,
+   "chg_1m_%": -4.19
+  },
+  {
+   "name": "필라델피아반도체",
+   "symbol": "^SOX",
+   "date": "2026-11-25",
+   "close": 8774.86,
+   "chg_1d_%": -0.65,
+   "chg_5d_%": -9.1,
+   "chg_1m_%": -23.58
+  },
+  {
+   "name": "러셀2000",
+   "symbol": "^RUT",
+   "date": "2026-11-25",
+   "close": 2704.06,
+   "chg_1d_%": 0.71,
+   "chg_5d_%": -0.38,
+   "chg_1m_%": -4.07
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "date": "2026-11-25",
+   "close": 28.29,
+   "chg_1d_%": 7.32,
+   "chg_5d_%": 15.19,
+   "chg_1m_%": 61.47
+  }
+ ],
+ "us_stocks": [
+  {
+   "name": "엔비디아",
+   "symbol": "NVDA",
+   "date": "2026-11-25",
+   "close": 149.3,
+   "chg_1d_%": -3.91,
+   "chg_5d_%": -1.1,
+   "chg_1m_%": -31.49
+  },
+  {
+   "name": "애플",
+   "symbol": "AAPL",
+   "date": "2026-11-25",
+   "close": 355.58,
+   "chg_1d_%": 0.43,
+   "chg_5d_%": 0.89,
+   "chg_1m_%": 2.44
+  },
+  {
+   "name": "마이크로소프트",
+   "symbol": "MSFT",
+   "date": "2026-11-25",
+   "close": 489.93,
+   "chg_1d_%": -1.25,
+   "chg_5d_%": -3.61,
+   "chg_1m_%": -7.79
+  },
+  {
+   "name": "알파벳",
+   "symbol": "GOOGL",
+   "date": "2026-11-25",
+   "close": 273.1,
+   "chg_1d_%": -2.13,
+   "chg_5d_%": -3.31,
+   "chg_1m_%": -14.81
+  },
+  {
+   "name": "아마존",
+   "symbol": "AMZN",
+   "date": "2026-11-25",
+   "close": 244.43,
+   "chg_1d_%": -3.12,
+   "chg_5d_%": -8.71,
+   "chg_1m_%": -3.43
+  },
+  {
+   "name": "메타",
+   "symbol": "META",
+   "date": "2026-11-25",
+   "close": 609.89,
+   "chg_1d_%": 3.4,
+   "chg_5d_%": -1.05,
+   "chg_1m_%": -1.66
+  },
+  {
+   "name": "테슬라",
+   "symbol": "TSLA",
+   "date": "2026-11-25",
+   "close": 380.14,
+   "chg_1d_%": -1.18,
+   "chg_5d_%": -0.93,
+   "chg_1m_%": -6.7
+  },
+  {
+   "name": "브로드컴",
+   "symbol": "AVGO",
+   "date": "2026-11-25",
+   "close": 300.86,
+   "chg_1d_%": -0.07,
+   "chg_5d_%": -15.02,
+   "chg_1m_%": -12.11
+  },
+  {
+   "name": "팔란티어",
+   "symbol": "PLTR",
+   "date": "2026-11-25",
+   "close": 163.59,
+   "chg_1d_%": 1.5,
+   "chg_5d_%": 4.42,
+   "chg_1m_%": -17.68
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "date": "2026-11-25",
+   "close": 342.34,
+   "chg_1d_%": -1.96,
+   "chg_5d_%": -5.59,
+   "chg_1m_%": -21.64
+  }
+ ],
+ "kr_indices": [
+  {
+   "name": "코스피",
+   "symbol": "^KS11",
+   "date": "2026-11-26",
+   "close": 4766.5,
+   "chg_1d_%": 1.47,
+   "chg_5d_%": -7.23,
+   "chg_1m_%": -20.72
+  },
+  {
+   "name": "코스닥",
+   "symbol": "^KQ11",
+   "date": "2026-11-26",
+   "close": 663.69,
+   "chg_1d_%": 2.01,
+   "chg_5d_%": -3.08,
+   "chg_1m_%": -13.95
+  }
+ ],
+ "kr_stocks": [
+  {
+   "name": "삼성전자",
+   "symbol": "005930.KS",
+   "date": "2026-11-26",
+   "close": 173900.0,
+   "chg_1d_%": 1.87,
+   "chg_5d_%": -11.68,
+   "chg_1m_%": -28.14
+  },
+  {
+   "name": "SK하이닉스",
+   "symbol": "000660.KS",
+   "date": "2026-11-26",
+   "close": 1070000.0,
+   "chg_1d_%": 3.88,
+   "chg_5d_%": -9.55,
+   "chg_1m_%": -28.04
+  },
+  {
+   "name": "LG에너지솔루션",
+   "symbol": "373220.KS",
+   "date": "2026-11-26",
+   "close": 305000.0,
+   "chg_1d_%": -1.13,
+   "chg_5d_%": 0.99,
+   "chg_1m_%": -21.69
+  },
+  {
+   "name": "현대차",
+   "symbol": "005380.KS",
+   "date": "2026-11-26",
+   "close": 261500.0,
+   "chg_1d_%": -2.97,
+   "chg_5d_%": -2.24,
+   "chg_1m_%": -11.66
+  },
+  {
+   "name": "삼성바이오로직스",
+   "symbol": "207940.KS",
+   "date": "2026-11-26",
+   "close": 1350000.0,
+   "chg_1d_%": -0.95,
+   "chg_5d_%": -1.82,
+   "chg_1m_%": -1.6
+  },
+  {
+   "name": "NAVER",
+   "symbol": "035420.KS",
+   "date": "2026-11-26",
+   "close": 159900.0,
+   "chg_1d_%": 0.57,
+   "chg_5d_%": -4.99,
+   "chg_1m_%": -10.17
+  }
+ ],
+ "macro": [
+  {
+   "name": "원/달러",
+   "symbol": "KRW=X",
+   "date": "2026-11-26",
+   "close": 1342.58,
+   "chg_1d_%": -0.01,
+   "chg_5d_%": 0.92,
+   "chg_1m_%": 1.19
+  },
+  {
+   "name": "달러인덱스",
+   "symbol": "DX-Y.NYB",
+   "date": "2026-11-25",
+   "close": 103.82,
+   "chg_1d_%": 0.01,
+   "chg_5d_%": -0.04,
+   "chg_1m_%": 1.47
+  },
+  {
+   "name": "미국10년물(%)",
+   "symbol": "^TNX",
+   "date": "2026-11-25",
+   "close": 4.85,
+   "chg_1d_%": -1.14,
+   "chg_5d_%": -4.3,
+   "chg_1m_%": -2.9
+  },
+  {
+   "name": "WTI유가",
+   "symbol": "CL=F",
+   "date": "2026-11-25",
+   "close": 84.33,
+   "chg_1d_%": 2.78,
+   "chg_5d_%": 1.29,
+   "chg_1m_%": -15.59
+  },
+  {
+   "name": "금",
+   "symbol": "GC=F",
+   "date": "2026-11-25",
+   "close": 3603.2,
+   "chg_1d_%": 1.16,
+   "chg_5d_%": -3.71,
+   "chg_1m_%": -11.57
+  }
+ ],
+ "crypto": {
+  "total_mcap_usd_trillion": 2.104,
+  "mcap_chg_24h_%": -0.32,
+  "btc_dominance_%": 57.89,
+  "eth_dominance_%": 9.83,
+  "prices": {
+   "bitcoin": {
+    "usd": 60884,
+    "krw": 81771249,
+    "chg_24h_%": 2.97
+   },
+   "ethereum": {
+    "usd": 1700.16,
+    "krw": 2283426,
+    "chg_24h_%": 2.62
+   },
+   "solana": {
+    "usd": 71.18,
+    "krw": 95601,
+    "chg_24h_%": 3.29
+   },
+   "ripple": {
+    "usd": 0.959977,
+    "krw": 1289.31,
+    "chg_24h_%": 4.67
+   }
+  },
+  "fear_greed": [
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 13,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   }
+  ],
+  "stablecoin_supply_usd_billion": 282.2,
+  "stablecoin_7d_chg_usd_billion": -3.01
+ },
+ "news": {
+  "미국주식": [
+   {
+    "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+    "summary": "Nvidia's board is under investigation, and directors are already defendants in a shareholder lawsuit accusing them of failing to properly oversee the company.",
+    "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
+    "published": "Wed, 25 Nov 2026 22:04:58 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "AI debt markets shudder as Nvidia's top 'banker' returns",
+    "summary": "Fears about some companies' AI debt ramped higher Tuesday, a day after Jensen Huang's return as Nvidia CEO.",
+    "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+    "published": "Tue, 24 Nov 2026 21:52:05 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+    "summary": "The product, the first one beyond event contracts, was introduced in May.",
+    "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+    "published": "Tue, 24 Nov 2026 23:03:24 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+    "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+    "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+    "published": "Mon, 23 Nov 2026 22:43:38 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The biggest money-making energy trade looks over. What to buy instead",
+    "summary": "The epic boom in refinery-related stocks is unwinding.",
+    "link": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
+    "published": "Mon, 23 Nov 2026 12:00:20 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+    "summary": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+    "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+    "published": "Sun, 22 Nov 2026 12:13:56 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The Nasdaq is in freefall. Here's one stock to look at",
+    "summary": "Elevated options premiums are creating an opportunity in Amazon",
+    "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+    "published": "Sun, 22 Nov 2026 12:10:39 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "summary": "Odds that the S&amp;P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "published": "Fri, 20 Nov 2026 19:59:03 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+    "summary": "S&amp;P Global Ratings said Nvidia's credit rating could be cut by one notch as it flagged \"rising\" management and governance risk at the chipmaker.",
+    "link": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+    "published": "Thu, 26 Nov 2026 03:19:44 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+    "summary": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory or burdensome to U.S. commerce.",
+    "link": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+    "published": "Wed, 25 Nov 2026 16:02:52 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
+    "summary": "South Korean beauty stocks rose as K-beauty brands dominated Amazon's skincare rankings ahead of Black Friday.",
+    "link": "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html",
+    "published": "Thu, 26 Nov 2026 03:09:47 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
+    "summary": "Japan's Nikkei 225 rose 1.21% in early trade, while the Topix edged 0.71% higher. Australia's S&amp;P/ASX 200 was up 0.15%.",
+    "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+    "published": "Thu, 26 Nov 2026 01:45:52 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+    "summary": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+    "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
+    "published": "Thu, 26 Nov 2026 00:27:52 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+    "summary": "A judge has blocked the FCC's early license renewal process for Disney-owned ABC stations in 'important victory for the First Amendment'",
+    "link": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html",
+    "published": "Thu, 26 Nov 2026 04:00:15 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+    "summary": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+    "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+    "published": "Wed, 25 Nov 2026 21:00:08 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Norse Atlantic flights suspended after warning finances 'critical'",
+    "summary": "Norse Atlantic suspended flights as it warned its financial position was \"critical.\" The airline is seeking short-term financing and exploring a potential takeover.",
+    "link": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+    "published": "Thu, 26 Nov 2026 01:52:20 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+    "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+    "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+    "published": "Thu, 26 Nov 2026 01:15:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+    "summary": "Monday’s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.",
+    "link": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+    "published": "Thu, 26 Nov 2026 00:33:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+    "summary": "“Retirement is a financial status, not an age.”",
+    "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 23:30:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+    "summary": "“Given my age, I never make a major new purchase without thinking about the future.”",
+    "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 23:30:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+    "summary": "“My wife stopped working outside the home in 1970.”",
+    "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 23:00:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+    "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+    "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 22:45:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+    "summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
+    "link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 22:16:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+    "summary": "Based on where retail investors bought Nvidia shares on the dip last week, their gains are now nearly all gone, according to Vanda Research.",
+    "link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+    "published": "Wed, 25 Nov 2026 22:11:00 GMT",
+    "source": "MarketWatch"
+   }
+  ],
+  "국내주식": [
+   {
+    "title": "한은 총재 \"반도체 시총 2천조, 수익 3배밖에 안돼…설명 불가\"",
+    "summary": "(서울=연합뉴스) 채새롬 이도흔 기자 = 신현송 한국은행 총재는 &quot;반도체 기업의 올해 영업이익이 700조원인데 시총이 2천조로 수익의 3배밖에 ...",
+    "link": "https://www.yna.co.kr/view/AKR20261126102000002",
+    "published": "Thu, 26 Nov 2026 12:18:18 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "춘천시 카자흐스탄 방문해 태권도 교류·체육시설 벤치마킹",
+    "summary": "(춘천=연합뉴스) 이상학 기자 = 강원 춘천시가 태권도 국제교류 확대와 대형 체육시설 벤치마킹을 위해 카자흐스탄을 방문한다.",
+    "link": "https://www.yna.co.kr/view/AKR20261126093000062",
+    "published": "Thu, 26 Nov 2026 12:15:03 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "한은 총재 \"잠재성장률 추정치 높이는 방향…내달 발표\"",
+    "summary": "(서울=연합뉴스) 채새롬 이도흔 기자 = 신현송 한국은행 총재는 잠재성장률을 현재 통화정책 기준으로 삼기는 어렵다며 추정치를 높이는 방향을 내년...",
+    "link": "https://www.yna.co.kr/view/AKR20261126100700002",
+    "published": "Thu, 26 Nov 2026 12:04:29 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "올해 수도권 소형 아파트 7% 상승…중대형 오름폭 웃돌아",
+    "summary": "(서울=연합뉴스) 오예진 기자 = 올해 1∼10월 수도권 아파트 시장에서 전용면적 60㎡ 이하 소형의 상승률이 중대형 상승률을 웃돈 것으로 나타...",
+    "link": "https://www.yna.co.kr/view/AKR20261126099900003",
+    "published": "Thu, 26 Nov 2026 12:00:47 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "물가에 가계 실질소비 '제자리'…쓸 돈 13분기 만에 줄었다",
+    "summary": "(세종=연합뉴스) 이대희 송정은 기자 = 올해 3분기 가계 소비지출이 23분기 연속 증가했지만 물가 상승 영향을 제외한 실질 소비지출은 1년 전...",
+    "link": "https://www.yna.co.kr/view/AKR20261126077400002",
+    "published": "Thu, 26 Nov 2026 12:00:15 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "동물실험 대체·암환자 심리지원…공공데이터·AI 활용대회 대상",
+    "summary": "(서울=연합뉴스) 양정우 기자 = 인공지능(AI)을 활용해 동물실험을 대체·보완할 수 있는 안전성 평가 플랫폼과 암 생존자의 재발 불안을 예측해...",
+    "link": "https://www.yna.co.kr/view/AKR20261126025600530",
+    "published": "Thu, 26 Nov 2026 12:00:13 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "내달 노동감독 지방 위임…서울 경비업·경기 식품제조 중점감독",
+    "summary": "(서울=연합뉴스) 한혜원 기자 = 고용노동부는 다음 달 8일부터 노동감독관 직무집행법이 시행돼 서울, 전남광주, 경기, 경남, 제주 등 지방정부...",
+    "link": "https://www.yna.co.kr/view/AKR20261126040800530",
+    "published": "Thu, 26 Nov 2026 12:00:11 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "내년 노인일자리 역대 최대 118만개…내일부터 참여자 모집",
+    "summary": "(서울=연합뉴스) 김영신 기자 = 정부가 내년 역대 최대 규모인 118만개의 노인일자리를 제공하기로 하고 27일부터 다음 달 24일까지 참여자를...",
+    "link": "https://www.yna.co.kr/view/AKR20261126033200530",
+    "published": "Thu, 26 Nov 2026 12:00:11 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "퇴직연금 디폴트옵션, 어디가 제일 잘하나…미래에셋證, 업계 1위",
+    "summary": "4개 유형 고른 성장…공시 첫 분기比 61배↑ 적극투자형 TDF1, 적립금 기준 금융업권 1위 안정투자형 포트폴리오2, 3년 수익률 40.85%퇴직연금 시장에서 최근 디폴트옵션(사..",
+    "link": "https://www.mk.co.kr/news/stock/12219232",
+    "published": "Thu, 26 Nov 2026 12:34:39 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+    "summary": "RF 질화갈륨(GaN) 반도체 전문기업 웨이비스가 한화시스템과 천마(K-31)용 핵심 국산화 모듈 후속 공급 계약을 맺으며 누적 수주 규모 100억 원을 넘어섰다. 웨이비스는 26..",
+    "link": "https://www.mk.co.kr/news/stock/12219212",
+    "published": "Thu, 26 Nov 2026 11:39:34 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "삼성 금융계열사 5곳, 임원 28명 승진…부사장 9명·상무 19명",
+    "summary": "삼성화재 8명으로 최다…생명·증권 각 6명 증권 부사장 3명…운용 대체투자부문장 승진삼성생명·삼성화재·삼성카드·삼성증권·삼성자산운용 등 삼성 금융계열사 5곳이 26일 2027년 정..",
+    "link": "https://www.mk.co.kr/news/economy/12219209",
+    "published": "Thu, 26 Nov 2026 11:37:53 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "파루 최대주주 지본, 파루 주식 5억원 추가 매수",
+    "summary": "“주가 저평가 판단…책임경영 강화” 햇빛소득마을 5곳과 수주 계약 완료태양광 전문기업 파루의 최대주주 지본이 5억원 규모의 파루 주식을 추가로 장내매수한다. 파루는 햇빛소득마을 수..",
+    "link": "https://www.mk.co.kr/news/business/12219173",
+    "published": "Thu, 26 Nov 2026 11:15:08 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "한은 금리 인상은 선반영…금융지주 주가 일제히 하락",
+    "summary": "KB·하나 등 장중 2%대 하락 기준금리 0.25%P 인상에도 시장금리 하락에 수익성 한계한국은행이 기준금리를 연 3.25%로 인상했지만 국내 은행주는 일제히 하락세를 나타내고 있..",
+    "link": "https://www.mk.co.kr/news/stock/12219126",
+    "published": "Thu, 26 Nov 2026 10:46:03 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "반도체 반등하자 삼전닉스 던졌다…초고수, 유가에 6% 빠진 대한항공 담았다[주식 초고수는 지금]",
+    "summary": "피에스케이, 삼성전기 등 순매수 현대오토에버, HLB 등은 순매도주식 투자 수익률 상위 1% 초고수들이 26일 오전 피에스케이홀딩스를 가장 많이 사들이고 SK하이닉스를 가장 많이 ..",
+    "link": "https://www.mk.co.kr/news/stock/12219102",
+    "published": "Thu, 26 Nov 2026 10:29:53 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "에브리봇, ‘머큐어 서울 마곡’에 AI 청소로봇 도입 추진…호텔 B2B 공략",
+    "summary": "피지컬AI 로봇 전문기업 에브리봇이 프리미엄 호텔에 AI 청소로봇 도입을 추진하며 호스피탈리티 분야 B2B 시장 공략에 나선다. 에브리봇은 26일 서울 강서구 ‘머큐어 서울 마곡’..",
+    "link": "https://www.mk.co.kr/news/stock/12219088",
+    "published": "Thu, 26 Nov 2026 10:18:24 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "M83·모터헤드, 넷플릭스 글로벌 1위 ‘꿀알바’ VFX 총괄…1700개 샷 구현",
+    "summary": "시각특수효과(VFX) 전문기업 M83이 자회사 모터헤드와 함께 넷플릭스 시리즈 ‘꿀알바’의 메인 VFX 제작을 맡아 글로벌 흥행을 뒷받침했다. M83은 26일 모터헤드와 협업해 ‘..",
+    "link": "https://www.mk.co.kr/news/stock/12219078",
+    "published": "Thu, 26 Nov 2026 10:15:22 +09:00",
+    "source": "매일경제 증권"
+   }
+  ],
+  "크립토": [
+   {
+    "title": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+    "published": "Wed, 25 Nov 2026 18:24:47 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+    "published": "Wed, 25 Nov 2026 17:38:33 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/25/eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+    "published": "Wed, 25 Nov 2026 16:02:31 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million",
+    "published": "Wed, 25 Nov 2026 16:02:07 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+    "summary": "",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
+    "published": "Wed, 25 Nov 2026 15:59:44 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
+    "summary": "",
+    "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+    "published": "Wed, 25 Nov 2026 14:47:17 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
+    "summary": "",
+    "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+    "published": "Wed, 25 Nov 2026 12:18:46 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "published": "Wed, 25 Nov 2026 11:57:50 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "AI labs likely sitting on cryptography ‘bombshells,’ computer scientist says",
+    "summary": "AI is driving a massive wave of mathematical breakthroughs which could have implications for cryptography. ",
+    "link": "https://cointelegraph.com/news/ai-labs-likely-sitting-on-cryptography-bombshells-computer-scientist-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Thu, 26 Nov 2026 01:33:20 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Here’s what happened in crypto today",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 22:33:13 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Switzerland clears 57 jurisdictions for crypto tax data sharing",
+    "summary": "The move paves the way for Switzerland to exchange crypto tax data with foreign authorities starting in 2028 as part of a global effort to combat tax evasion.",
+    "link": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 21:53:38 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
+    "summary": "Bitcoin mining pool operator Braiins warned that attackers are exploiting unsecured connections to hijack miners’ computing power and potentially steal rewards.",
+    "link": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 21:22:19 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Why ECB collateral eligibility could boost demand for tokenized bonds",
+    "summary": "Past ECB decisions offer clues to the value of using bonds as collateral, while US derivatives exchanges face a different calculation over their Bitcoin holdings.",
+    "link": "https://cointelegraph.com/news/why-ecb-collateral-eligibility-could-boost-demand-tokenized-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 21:11:39 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats",
+    "summary": "Ethlabs co-founder Julian Ma told Cointelegraph that AI poses a more immediate threat as Ethereum prepares for one of its biggest security overhauls since the Merge.",
+    "link": "https://cointelegraph.com/news/ethereum-foundation-keccak-256-counter-quantum-ai-threats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 18:54:51 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+    "summary": "US core inflation rose more than expected in October as markets anticipate a December interest rate hike, which could slow a crypto market recovery.",
+    "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 17:53:10 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
+    "summary": "The prospect of higher US tariffs and hotter-than-expected PCE inflation weighed on Bitcoin, crypto and stocks on Wednesday.",
+    "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Wed, 25 Nov 2026 17:33:22 +0000",
+    "source": "Cointelegraph"
+   }
+  ]
+ },
+ "youtube": []
+}
