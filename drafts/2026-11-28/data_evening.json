@@ -1,0 +1,791 @@
+{
+ "collected_at_kst": "2026-11-28 02:37",
+ "us_indices": [
+  {
+   "name": "S&P500",
+   "symbol": "^GSPC",
+   "date": "2026-11-27",
+   "close": 7284.48,
+   "chg_1d_%": 1.42,
+   "chg_5d_%": 1.51,
+   "chg_1m_%": -5.93
+  },
+  {
+   "name": "나스닥",
+   "symbol": "^IXIC",
+   "date": "2026-11-27",
+   "close": 24032.79,
+   "chg_1d_%": 1.9,
+   "chg_5d_%": 0.64,
+   "chg_1m_%": -9.48
+  },
+  {
+   "name": "다우",
+   "symbol": "^DJI",
+   "date": "2026-11-27",
+   "close": 50777.29,
+   "chg_1d_%": 1.18,
+   "chg_5d_%": 3.42,
+   "chg_1m_%": -3.24
+  },
+  {
+   "name": "필라델피아반도체",
+   "symbol": "^SOX",
+   "date": "2026-11-27",
+   "close": 9052.09,
+   "chg_1d_%": 3.16,
+   "chg_5d_%": -3.9,
+   "chg_1m_%": -22.53
+  },
+  {
+   "name": "러셀2000",
+   "symbol": "^RUT",
+   "date": "2026-11-27",
+   "close": 2745.89,
+   "chg_1d_%": 1.55,
+   "chg_5d_%": 3.42,
+   "chg_1m_%": -2.99
+  },
+  {
+   "name": "VIX",
+   "symbol": "^VIX",
+   "date": "2026-11-27",
+   "close": 24.57,
+   "chg_1d_%": -8.32,
+   "chg_5d_%": -31.54,
+   "chg_1m_%": 42.85
+  }
+ ],
+ "us_stocks": [
+  {
+   "name": "엔비디아",
+   "symbol": "NVDA",
+   "date": "2026-11-27",
+   "close": 148.89,
+   "chg_1d_%": -0.27,
+   "chg_5d_%": 1.99,
+   "chg_1m_%": -30.87
+  },
+  {
+   "name": "애플",
+   "symbol": "AAPL",
+   "date": "2026-11-27",
+   "close": 358.27,
+   "chg_1d_%": 0.76,
+   "chg_5d_%": 2.59,
+   "chg_1m_%": 4.2
+  },
+  {
+   "name": "마이크로소프트",
+   "symbol": "MSFT",
+   "date": "2026-11-27",
+   "close": 491.56,
+   "chg_1d_%": 0.33,
+   "chg_5d_%": -1.35,
+   "chg_1m_%": -7.43
+  },
+  {
+   "name": "알파벳",
+   "symbol": "GOOGL",
+   "date": "2026-11-27",
+   "close": 273.57,
+   "chg_1d_%": 0.17,
+   "chg_5d_%": 0.33,
+   "chg_1m_%": -15.8
+  },
+  {
+   "name": "아마존",
+   "symbol": "AMZN",
+   "date": "2026-11-27",
+   "close": 255.02,
+   "chg_1d_%": 4.33,
+   "chg_5d_%": -0.91,
+   "chg_1m_%": 0.16
+  },
+  {
+   "name": "메타",
+   "symbol": "META",
+   "date": "2026-11-27",
+   "close": 629.07,
+   "chg_1d_%": 3.14,
+   "chg_5d_%": 5.51,
+   "chg_1m_%": 2.71
+  },
+  {
+   "name": "테슬라",
+   "symbol": "TSLA",
+   "date": "2026-11-27",
+   "close": 399.44,
+   "chg_1d_%": 5.08,
+   "chg_5d_%": 6.68,
+   "chg_1m_%": -1.18
+  },
+  {
+   "name": "브로드컴",
+   "symbol": "AVGO",
+   "date": "2026-11-27",
+   "close": 311.15,
+   "chg_1d_%": 3.42,
+   "chg_5d_%": -10.24,
+   "chg_1m_%": -11.56
+  },
+  {
+   "name": "팔란티어",
+   "symbol": "PLTR",
+   "date": "2026-11-27",
+   "close": 171.69,
+   "chg_1d_%": 4.95,
+   "chg_5d_%": 11.72,
+   "chg_1m_%": -12.76
+  },
+  {
+   "name": "TSMC",
+   "symbol": "TSM",
+   "date": "2026-11-27",
+   "close": 350.64,
+   "chg_1d_%": 2.42,
+   "chg_5d_%": -0.41,
+   "chg_1m_%": -20.22
+  }
+ ],
+ "kr_indices": [
+  {
+   "name": "코스피",
+   "symbol": "^KS11",
+   "date": "2026-11-26",
+   "close": 4711.21,
+   "chg_1d_%": 0.29,
+   "chg_5d_%": -8.3,
+   "chg_1m_%": -21.64
+  },
+  {
+   "name": "코스닥",
+   "symbol": "^KQ11",
+   "date": "2026-11-26",
+   "close": 655.71,
+   "chg_1d_%": 0.78,
+   "chg_5d_%": -4.25,
+   "chg_1m_%": -14.98
+  }
+ ],
+ "kr_stocks": [
+  {
+   "name": "삼성전자",
+   "symbol": "005930.KS",
+   "date": "2026-11-26",
+   "close": 171300.0,
+   "chg_1d_%": 0.35,
+   "chg_5d_%": -13.0,
+   "chg_1m_%": -29.21
+  },
+  {
+   "name": "SK하이닉스",
+   "symbol": "000660.KS",
+   "date": "2026-11-26",
+   "close": 1053000.0,
+   "chg_1d_%": 2.23,
+   "chg_5d_%": -10.99,
+   "chg_1m_%": -29.19
+  },
+  {
+   "name": "LG에너지솔루션",
+   "symbol": "373220.KS",
+   "date": "2026-11-26",
+   "close": 302000.0,
+   "chg_1d_%": -2.11,
+   "chg_5d_%": 0.0,
+   "chg_1m_%": -22.46
+  },
+  {
+   "name": "현대차",
+   "symbol": "005380.KS",
+   "date": "2026-11-26",
+   "close": 259000.0,
+   "chg_1d_%": -3.9,
+   "chg_5d_%": -3.18,
+   "chg_1m_%": -12.5
+  },
+  {
+   "name": "삼성바이오로직스",
+   "symbol": "207940.KS",
+   "date": "2026-11-26",
+   "close": 1337000.0,
+   "chg_1d_%": -1.91,
+   "chg_5d_%": -2.76,
+   "chg_1m_%": -2.55
+  },
+  {
+   "name": "NAVER",
+   "symbol": "035420.KS",
+   "date": "2026-11-26",
+   "close": 160200.0,
+   "chg_1d_%": 0.75,
+   "chg_5d_%": -4.81,
+   "chg_1m_%": -10.0
+  }
+ ],
+ "macro": [
+  {
+   "name": "원/달러",
+   "symbol": "KRW=X",
+   "date": "2026-11-27",
+   "close": 1333.86,
+   "chg_1d_%": -0.68,
+   "chg_5d_%": -0.07,
+   "chg_1m_%": -0.48
+  },
+  {
+   "name": "달러인덱스",
+   "symbol": "DX-Y.NYB",
+   "date": "2026-11-27",
+   "close": 104.0,
+   "chg_1d_%": 0.32,
+   "chg_5d_%": 0.1,
+   "chg_1m_%": 1.77
+  },
+  {
+   "name": "미국10년물(%)",
+   "symbol": "^TNX",
+   "date": "2026-11-27",
+   "close": 4.93,
+   "chg_1d_%": 1.77,
+   "chg_5d_%": -2.34,
+   "chg_1m_%": -2.2
+  },
+  {
+   "name": "WTI유가",
+   "symbol": "CL=F",
+   "date": "2026-11-27",
+   "close": 82.7,
+   "chg_1d_%": -1.17,
+   "chg_5d_%": -0.61,
+   "chg_1m_%": -19.54
+  },
+  {
+   "name": "금",
+   "symbol": "GC=F",
+   "date": "2026-11-27",
+   "close": 3664.0,
+   "chg_1d_%": 3.63,
+   "chg_5d_%": -0.58,
+   "chg_1m_%": -9.57
+  }
+ ],
+ "crypto": {
+  "total_mcap_usd_trillion": 2.073,
+  "mcap_chg_24h_%": -3.56,
+  "btc_dominance_%": 57.66,
+  "eth_dominance_%": 9.78,
+  "prices": {
+   "bitcoin": {
+    "usd": 59661,
+    "krw": 79554949,
+    "chg_24h_%": -1.34
+   },
+   "ethereum": {
+    "usd": 1665.27,
+    "krw": 2220549,
+    "chg_24h_%": -1.56
+   },
+   "solana": {
+    "usd": 71.82,
+    "krw": 95768,
+    "chg_24h_%": 1.24
+   },
+   "ripple": {
+    "usd": 0.946764,
+    "krw": 1262.46,
+    "chg_24h_%": -0.22
+   }
+  },
+  "fear_greed": [
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 13,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 11,
+    "label": "Extreme Fear"
+   },
+   {
+    "value": 12,
+    "label": "Extreme Fear"
+   }
+  ],
+  "stablecoin_supply_usd_billion": 281.9,
+  "stablecoin_7d_chg_usd_billion": -1.49
+ },
+ "news": {
+  "미국주식": [
+   {
+    "title": "Semiconductor chips are the new oil. Here's why",
+    "summary": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
+    "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+    "published": "Thu, 26 Nov 2026 17:52:15 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+    "summary": "Nvidia's board is under investigation, and directors are already defendants in a shareholder lawsuit accusing them of failing to properly oversee the company.",
+    "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
+    "published": "Fri, 27 Nov 2026 14:47:33 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "AI debt markets shudder as Nvidia's top 'banker' returns",
+    "summary": "Fears about some companies' AI debt ramped higher Tuesday, a day after Jensen Huang's return as Nvidia CEO.",
+    "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+    "published": "Tue, 24 Nov 2026 21:52:05 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+    "summary": "The product, the first one beyond event contracts, was introduced in May.",
+    "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+    "published": "Tue, 24 Nov 2026 23:03:24 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+    "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+    "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+    "published": "Mon, 23 Nov 2026 22:43:38 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The biggest money-making energy trade looks over. What to buy instead",
+    "summary": "The epic boom in refinery-related stocks is unwinding.",
+    "link": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
+    "published": "Mon, 23 Nov 2026 12:00:20 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+    "summary": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+    "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+    "published": "Sun, 22 Nov 2026 12:13:56 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "The Nasdaq is in freefall. Here's one stock to look at",
+    "summary": "Elevated options premiums are creating an opportunity in Amazon",
+    "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+    "published": "Sun, 22 Nov 2026 12:10:39 GMT",
+    "source": "CNBC Markets"
+   },
+   {
+    "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+    "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+    "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+    "published": "Fri, 27 Nov 2026 15:52:00 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+    "summary": "The November sell-off has so far pushed the S&amp;P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+    "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+    "published": "Fri, 27 Nov 2026 13:21:56 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+    "summary": "AI shopping agents from OpenAI, Meta, Google and Instinct promise to help users shop, but they're hitting roadblocks at Amazon and other retailers.",
+    "link": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+    "published": "Fri, 27 Nov 2026 16:43:14 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+    "summary": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.",
+    "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+    "published": "Fri, 27 Nov 2026 13:58:19 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "SpaceX shares jump 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+    "summary": "SpaceX shares jumped in premarket trading after Elon Musk said on X that he would donate shares to American children every year.",
+    "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+    "published": "Fri, 27 Nov 2026 10:20:39 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+    "summary": "EU leaders failed to break a deadlock over the bloc’s budget, with talks set to resume in December as a key deadline looms.",
+    "link": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
+    "published": "Fri, 27 Nov 2026 14:12:55 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
+    "summary": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
+    "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
+    "published": "Wed, 25 Nov 2026 21:56:43 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+    "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
+    "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+    "published": "Wed, 25 Nov 2026 16:17:13 GMT",
+    "source": "CNBC Top"
+   },
+   {
+    "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+    "summary": "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
+    "link": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 17:31:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+    "summary": "Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.",
+    "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 17:04:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+    "summary": "“Retirement is a financial status, not an age.”",
+    "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 16:00:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+    "summary": "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
+    "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 15:52:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+    "summary": "“My wife stopped working outside the home in 1970.”",
+    "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 15:45:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+    "summary": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
+    "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 15:30:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "My friends play ‘credit-card roulette’ to see who pays for dinner — but one ‘winner’ still Venmoed me afterward. Should I say something?",
+    "summary": "‘I was stunned! I’ve lost my fair share, and won my fair share, and truly believe it all evens out over time.’",
+    "link": "https://www.marketwatch.com/story/my-friends-play-credit-card-roulette-to-see-who-pays-for-dinner-but-one-winner-still-venmoed-me-afterward-should-i-say-something-0a657eee?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 15:04:00 GMT",
+    "source": "MarketWatch"
+   },
+   {
+    "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
+    "summary": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive. However, they  don’t seem to be generating  revenues from it at the same rate.",
+    "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+    "published": "Fri, 27 Nov 2026 15:01:00 GMT",
+    "source": "MarketWatch"
+   }
+  ],
+  "국내주식": [
+   {
+    "title": "'AI 시대' 미래준비 최고 도시는 샌프란시스코…서울 8위로 상승",
+    "summary": "(상파울루=연합뉴스) 성도현 기자 = 전 세계 112개 주요 도시 중 인공지능(AI) 시대의 미래 변화에 가장 앞선 도시로 미국 샌프란시스코가 ...",
+    "link": "https://www.yna.co.kr/view/AKR20261127169800371",
+    "published": "Sat, 28 Nov 2026 00:26:17 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "정부, '연속 야간근로 3일 이하 제한' 추진…초심야 별도 관리",
+    "summary": "(서울=연합뉴스) 옥성구 기자 = 고용노동부가 연속 야간근무를 &apos;3일 이하&apos;로 제한하고, 자정부터 오전 4시까지를 &apos;초심야시간대&apos;로 규정해 별도...",
+    "link": "https://www.yna.co.kr/view/AKR20261127166100530",
+    "published": "Fri, 27 Nov 2026 20:47:42 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "국내 송금업체 해킹으로 25억원 피해…금감원 현장점검 착수",
+    "summary": "(서울=연합뉴스) 김지연 기자 = 국내 해외송금업체 이나인페이가 해킹 공격으로 약 25억원을 탈취당한 것으로 알려져 금융감독원이 현장점검에 나섰...",
+    "link": "https://www.yna.co.kr/view/AKR20261127162500002",
+    "published": "Fri, 27 Nov 2026 19:48:58 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "피노, 188억5천만원 유상증자…이케이케이알파제이호사모투자합자회사에 제3자배정",
+    "summary": "(서울=연합뉴스) 코스닥 상장사 피노[033790]는 시설자금 등 약 188억5천만원을 조달하고자 제3자배정 유상증자를 결정했다고 27일 공시했...",
+    "link": "https://www.yna.co.kr/view/AKR20261127159500008",
+    "published": "Fri, 27 Nov 2026 19:34:34 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "노사정, 초광역특구 기간제 논의 매듭…다음 의제 '노사관계'",
+    "summary": "(서울=연합뉴스) 옥성구 기자 = 노사정이 &apos;초광역특구&apos; 관련 사회적 대화에서 기간제 특례 논의를 마무리했다.",
+    "link": "https://www.yna.co.kr/view/AKR20261127161700530",
+    "published": "Fri, 27 Nov 2026 19:22:53 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "AI 보안기업 에임인텔리전스, K-디지털 챔피언십 대상",
+    "summary": "(서울=연합뉴스) 권하영 기자 = 인공지능(AI) 서비스의 보안 취약점을 탐색하는 기술을 개발한 스타트업 에임인텔리전스가 국내 유망 디지털 스타...",
+    "link": "https://www.yna.co.kr/view/AKR20261127156800017",
+    "published": "Fri, 27 Nov 2026 18:48:58 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "김범수 'SM시세조종 혐의' 무죄 확정…공소청 상고 포기",
+    "summary": "(서울=연합뉴스) 김채린 기자 = SM엔터테인먼트 시세를 조종한 혐의로 기소된 카카오 창업자 김범수 미래이니셔티브센터장의 무죄가 확정됐다.",
+    "link": "https://www.yna.co.kr/view/AKR20261127156300004",
+    "published": "Fri, 27 Nov 2026 18:25:55 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "대동, 550억원 주주배정 유상증자 결정",
+    "summary": "(서울=연합뉴스) 코스피 상장사 대동[000490]은 채무상환자금 등 약 550억원을 조달하고자 주주배정후 실권주 일반공모 유상증자를 결정했다고...",
+    "link": "https://www.yna.co.kr/view/AKR20261127146900008",
+    "published": "Fri, 27 Nov 2026 18:11:20 +0900",
+    "source": "연합뉴스 경제"
+   },
+   {
+    "title": "\"10조로 되겠냐고요\"…개미들이 진짜 원하는 건 따로 있다 [분석+]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112749456",
+    "published": "Fri, 27 Nov 2026 22:00:01 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "'한한령 풀리면 날아갈 줄 알았는데'…일주일 만에 '날벼락' [종목+]",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112750406",
+    "published": "Fri, 27 Nov 2026 20:00:04 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "\"눈물 쏟고 고개 숙이고\"…코스피 반토막에 전문가들도 '충격'",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/202611274867H",
+    "published": "Fri, 27 Nov 2026 18:17:01 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "한국거래소, 희귀질환 아동에 1.2억 기부",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112754211",
+    "published": "Fri, 27 Nov 2026 18:12:09 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "金, 고점 대비 30% 뚝…월가선 바닥론 솔솔",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112753871",
+    "published": "Fri, 27 Nov 2026 17:59:15 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "하향 리포트 1000개 쏟아질 때 목표가 오른 '알짜 종목'은",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112753891",
+    "published": "Fri, 27 Nov 2026 17:58:15 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "'주주환원 발표=상승'…수급 공백이 만든 공식",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112753911",
+    "published": "Fri, 27 Nov 2026 17:56:25 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "바이오·로봇·배터리 급등…코스닥 간만에 웃었다",
+    "summary": "",
+    "link": "https://www.hankyung.com/article/2026112753921",
+    "published": "Fri, 27 Nov 2026 17:45:06 +0900",
+    "source": "한국경제 증권"
+   },
+   {
+    "title": "‘트리플 할인’일 때 담아서 키워볼까…1년 만에 48% 오른 ETF [이번주 찜할 ETF]",
+    "summary": "연말 쇼핑 잘하면 대박 나는 상품쇼핑족에게 크리스마스는 곧 할인 시즌이다. 요즘 같은 불황에는 더욱 그렇다. 국내 H사의 ‘더블마일리지’는 연말 쇼핑 시즌에 주목받는 행사다. 할인..",
+    "link": "https://www.mk.co.kr/news/stock/12220445",
+    "published": "Fri, 27 Nov 2026 18:17:25 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "[속보] 국민연금 9월말 기준수익률 연초대비 13%",
+    "summary": "기금규모 1664조 기록국민연금이 지난 9월 말 기준으로 연초 대비 13.28% 수익률을 기록했다. 9월 말 코스피는 6800선에서 거래됐다. 27일 국민연금 기금운용본부에 따르면..",
+    "link": "https://www.mk.co.kr/news/stock/12220415",
+    "published": "Fri, 27 Nov 2026 17:42:28 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "\"노후 생활비·자녀 결혼자금 … 모든 돈에 꼬리표를 붙여라\"",
+    "summary": "지난해 퇴직한 A씨는 10여 년간 살던 서울 아파트를 처분하고 수도권 전원주택으로 이주했다. A씨는 그 과정에서 마련한 여유자금 10억원을 지난 5월께 주식과 채권 등에 투자했다...",
+    "link": "https://www.mk.co.kr/news/stock/12220398",
+    "published": "Fri, 27 Nov 2026 17:33:34 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
+    "summary": "미국 세포배양 자동화 로봇 기업 셀트리오(Celltrio)가 국내 투자사 등으로부터 자금을 추가로 확보하며 국내 증시 상장에 속도를 내고 있다. 셀트리오 최대주주는 국내 로봇 기업..",
+    "link": "https://www.mk.co.kr/news/stock/12220397",
+    "published": "Fri, 27 Nov 2026 17:33:34 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "'증안펀드 증액 기대감'… 하루 8% 튀어 오른 코스닥",
+    "summary": "국내 증시가 정부의 증권시장안정펀드(증안펀드) 가동 기대감과 '조 단위' 규모 외국인 매수세 유입에 힘입어 큰 폭으로 반등했다. 코스피는 4900선을 회복하며 주간 기준 상승 전환..",
+    "link": "https://www.mk.co.kr/news/stock/12220396",
+    "published": "Fri, 27 Nov 2026 17:33:33 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "비트코인 현물 ETF, 출시 이후 최대 월간 순유출…XRP만 나 홀로 순유입 전환[엠블록레터]",
+    "summary": "안녕하세요 엠블록레터의 AI 인턴입니다. 비트코인이 6만 달러선을 일시 회복했지만, 미국 비트코인 현물 ETF에서 역대 최대 규모의 월간 자금 이탈이 이어지며 시장 불안이 가시지 ..",
+    "link": "https://www.mk.co.kr/news/stock/12220356",
+    "published": "Fri, 27 Nov 2026 17:15:41 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "'외국인 쇼핑' 효과 본 무신사 … 매출 34% 증가하며 실적 잔치",
+    "summary": "무신사가 올해 3분기 누적 기준 역대 최대 매출과 영업이익을 기록했다. K패션을 앞세운 해외 역직구 거래액이 세 자릿수 성장률을 보인 가운데 오프라인 매장 확대와 외국인 관광객 매..",
+    "link": "https://www.mk.co.kr/news/stock/12220354",
+    "published": "Fri, 27 Nov 2026 17:13:08 +09:00",
+    "source": "매일경제 증권"
+   },
+   {
+    "title": "뿔난 카카오엔터 연예인 주주들…“카카오 분할 막아달라”",
+    "summary": "금융감독원 등에 진정서 제출 윤종빈 감독 등 60여명 가세 카카오엔터 상장 7년째 답보[본 기사는 11월 27일(16:37) 매일경제 자본시장 전문 유료매체인 ‘레이더M’에 보도 ..",
+    "link": "https://www.mk.co.kr/news/stock/12220295",
+    "published": "Fri, 27 Nov 2026 16:46:23 +09:00",
+    "source": "매일경제 증권"
+   }
+  ],
+  "크립토": [
+   {
+    "title": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+    "published": "Fri, 27 Nov 2026 13:19:10 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
+    "summary": "",
+    "link": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+    "published": "Fri, 27 Nov 2026 12:16:07 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+    "published": "Fri, 27 Nov 2026 11:45:47 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Live updates: Bitcoin's Thanksgiving gains prove fleeting",
+    "summary": "",
+    "link": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+    "published": "Fri, 27 Nov 2026 11:34:37 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+    "summary": "",
+    "link": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+    "published": "Fri, 27 Nov 2026 11:22:42 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Injective asks SEC to allow order books for tokenized stock trading",
+    "summary": "",
+    "link": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+    "published": "Fri, 27 Nov 2026 11:07:17 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Brazil’s stock exchange teams up with major banks to launch real-pegged stablecoin",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+    "published": "Fri, 27 Nov 2026 10:51:27 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
+    "summary": "",
+    "link": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+    "published": "Fri, 27 Nov 2026 10:00:00 +0000",
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+    "summary": "Bitcoin price volatility returned at the Wall Street open as BTC/USD dropped to local lows of $58,700 while stocks and gold headed higher.",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 16:48:51 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "What was Coinbase worth while Nasdaq was closed?",
+    "summary": "A Thanksgiving buyer paid 106.24 USDC per Coinbase share. Whether that looked like a holiday rally depended on when you’d last checked the stock.",
+    "link": "https://cointelegraph.com/news/what-was-coinbase-worth-while-nasdaq-was-closed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 14:40:54 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
+    "summary": "Binance is hiring for equity capital markets roles, including an analyst to develop tokenized equity products and assess prospective issuers.",
+    "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 13:44:00 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Here’s what happened in crypto today",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 13:28:26 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Brazil’s stock exchange pushes stablecoin launch back to 2027",
+    "summary": "Brazil’s stock exchange is working with six major financial institutions on a real-backed stablecoin that could launch as early as the first quarter of 2027.",
+    "link": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 12:39:54 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Austria-supervised crypto firms report 20.4B euros in H1 trading volume",
+    "summary": "About 74% of accounts were based in other EEA countries, highlighting the market’s cross-border nature and putting Europe’s supervisory framework in focus, FMA said.",
+    "link": "https://cointelegraph.com/news/austria-supervised-crypto-firms-report-204b-h1-volume?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 12:20:00 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bitcoin supply metric hits 11-year low as new ‘capitulation’ signal arrives",
+    "summary": "The seven-day moving average of Bitcoin’s supply profit/loss ratio hit an 11-year low as BTC price losses month-to-date remain near 20%.",
+    "link": "https://cointelegraph.com/markets/bitcoin-supply-metric-new-capitulation-signal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 11:14:28 +0000",
+    "source": "Cointelegraph"
+   },
+   {
+    "title": "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs",
+    "summary": "Bluefin will close its perps platform on Dec. 4, exiting a shrinking Sui market where it once handled over $500 million in daily trades.",
+    "link": "https://cointelegraph.com/news/bluefin-shut-down-perps-refocus-spot-trading-tokenized-rwas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "published": "Fri, 27 Nov 2026 10:26:06 +0000",
+    "source": "Cointelegraph"
+   }
+  ]
+ },
+ "youtube": []
+}
