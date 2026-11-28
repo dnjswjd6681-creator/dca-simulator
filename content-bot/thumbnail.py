@@ -31,61 +31,87 @@ def _font(bold: bool, size: int):
 
 
 def _wrap(draw, text, font, max_w):
+    """띄어쓰기 단위로 줄바꿈 (한 단어가 너무 길면 글자 단위로 자름)."""
     lines, cur = [], ""
-    for ch in text:
-        if draw.textlength(cur + ch, font=font) > max_w and cur:
+    for word in text.split(" "):
+        cand = f"{cur} {word}" if cur else word
+        if draw.textlength(cand, font=font) <= max_w:
+            cur = cand
+            continue
+        if cur:
             lines.append(cur)
-            cur = ch.lstrip()
-        else:
-            cur += ch
+        cur = ""
+        for ch in word:
+            if draw.textlength(cur + ch, font=font) > max_w and cur:
+                lines.append(cur)
+                cur = ch
+            else:
+                cur += ch
     if cur:
         lines.append(cur)
     return lines
 
 
+PHOTO_DIR = Path(__file__).parent / "photos"
+PHOTO_EXT = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".heif"}
+
+
+def _pick_photo(seed: str):
+    import random
+    try:
+        from pillow_heif import register_heif_opener
+        register_heif_opener()
+    except Exception:  # noqa: BLE001
+        pass
+    photos = sorted(p for p in PHOTO_DIR.glob("*") if p.suffix.lower() in PHOTO_EXT) if PHOTO_DIR.exists() else []
+    if not photos:
+        return None
+    rnd = random.Random(seed)
+    for p in rnd.sample(photos, len(photos)):
+        try:
+            from PIL import ImageOps
+            return ImageOps.exif_transpose(Image.open(p)).convert("RGB")
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
 def make(line1: str, line2: str, category: str, date_str: str, brand: str, out: Path) -> Path:
-    bg, accent = THEMES.get(category, DEFAULT_THEME)
-    img = Image.new("RGB", (SIZE, SIZE), bg)
+    """사진 배경 + 흰 글씨(1줄) + 노란 글씨(2줄) + 분홍 계정명. photos/ 폴더에 사진이 없으면 어두운 배경."""
+    photo = _pick_photo(date_str + line1)
+    if photo:
+        w, h = photo.size
+        side = min(w, h)
+        photo = photo.crop(((w - side) // 2, (h - side) // 2, (w + side) // 2, (h + side) // 2))
+        img = photo.resize((SIZE, SIZE))
+    else:
+        img = Image.new("RGB", (SIZE, SIZE), (30, 30, 34))
+    # 아래쪽 어둡게 (글씨 잘 보이게)
+    shade = Image.new("L", (1, SIZE))
+    for y in range(SIZE):
+        t = max(0.0, (y - SIZE * 0.35) / (SIZE * 0.65))
+        shade.putpixel((0, y), int(255 * min(0.82, t * 1.1)))
+    img = Image.composite(Image.new("RGB", (SIZE, SIZE), (0, 0, 0)), img, shade.resize((SIZE, SIZE)))
     d = ImageDraw.Draw(img)
 
-    # 은은한 대각선 그라데이션
-    for y in range(SIZE):
-        t = y / SIZE
-        c = tuple(int(bg[i] * (1 - 0.35 * t) + accent[i] * 0.12 * t) for i in range(3))
-        d.line([(0, y), (SIZE, y)], fill=c)
-
-    pad = 90
-    # 카테고리 칩
-    chip_f = _font(True, 40)
-    chip = f" {category} " if category else " 마켓 "
-    cw = d.textlength(chip, font=chip_f)
-    d.rounded_rectangle([pad, pad, pad + cw + 30, pad + 72], radius=36, fill=accent)
-    d.text((pad + 15, pad + 12), chip, font=chip_f, fill=bg)
-    d.text((SIZE - pad, pad + 14), date_str, font=_font(False, 38), fill=(200, 200, 210), anchor="ra")
-
-    # 큰 글씨
-    big = _font(True, 128)
-    lines = _wrap(d, line1, big, SIZE - pad * 2)
-    while len(lines) > 2 and big.size > 80:
-        big = _font(True, big.size - 12)
-        lines = _wrap(d, line1, big, SIZE - pad * 2)
-    y = 380
-    for ln in lines[:3]:
-        d.text((pad, y), ln, font=big, fill=(255, 255, 255))
-        y += int(big.size * 1.2)
-
-    # 포인트 밑줄
-    d.rectangle([pad, y + 20, pad + 140, y + 32], fill=accent)
-
-    # 작은 글씨
-    small = _font(False, 56)
-    y += 80
-    for ln in _wrap(d, line2, small, SIZE - pad * 2)[:2]:
-        d.text((pad, y), ln, font=small, fill=(225, 225, 235))
-        y += 74
-
+    pad = 70
+    f1, f2 = _font(True, 104), _font(True, 104)
+    l1 = _wrap(d, line1, f1, SIZE - pad * 2)
+    l2 = _wrap(d, line2, f2, SIZE - pad * 2)
+    while len(l1) + len(l2) > 3 and f1.size > 70:
+        f1 = f2 = _font(True, f1.size - 8)
+        l1, l2 = _wrap(d, line1, f1, SIZE - pad * 2), _wrap(d, line2, f2, SIZE - pad * 2)
+    brand_f = _font(True, 56)
+    lh = int(f1.size * 1.22)
+    y = SIZE - pad - (90 if brand else 10) - lh * (len(l1) + len(l2))
+    for ln in l1:
+        d.text((pad, y), ln, font=f1, fill=(255, 255, 255), stroke_width=3, stroke_fill=(0, 0, 0))
+        y += lh
+    for ln in l2:
+        d.text((pad, y), ln, font=f2, fill=(255, 226, 54), stroke_width=3, stroke_fill=(0, 0, 0))
+        y += lh
     if brand:
-        d.text((SIZE - pad, SIZE - pad), brand, font=_font(True, 36), fill=accent, anchor="rs")
+        d.text((pad, y + 20), brand, font=brand_f, fill=(255, 92, 168), stroke_width=2, stroke_fill=(0, 0, 0))
 
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, "PNG")

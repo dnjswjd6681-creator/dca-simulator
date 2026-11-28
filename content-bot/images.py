@@ -128,6 +128,62 @@ def card(title: str, items: list[str], out: Path) -> Path:
     return out
 
 
+DARK_BG, DARK_BG2, DIM, TXT = (22, 22, 24), (14, 14, 16), (150, 150, 158), (236, 236, 240)
+
+
+def quote_card(source: str, title: str, lines: list[str], out: Path) -> Path:
+    """원문 인용 카드 (어두운 배경). 실제 앱 화면을 흉내 내지 않고 '인용'임을 표시한다."""
+    W, pad = 1200, 64
+    src_f, title_f, body_f = _font(True, 34), _font(True, 58), _font(False, 42)
+    tmp = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    t_lines = _wrap(tmp, title, title_f, W - pad * 2) if title else []
+    b_lines = [ln for raw in lines for ln in _wrap(tmp, raw, body_f, W - pad * 2)]
+    H = pad + 50 + 40 + len(t_lines) * 76 + 24 + len(b_lines) * 62 + pad + 30
+    img = Image.new("RGB", (W, H), DARK_BG)
+    d = ImageDraw.Draw(img)
+    d.text((pad, pad), "“ 원문 요약", font=_font(True, 30), fill=(255, 92, 168))
+    d.text((pad + 210, pad), source, font=src_f, fill=DIM)
+    y = pad + 90
+    for ln in t_lines:
+        d.text((pad, y), ln, font=title_f, fill=(255, 255, 255))
+        y += 76
+    y += 24
+    for ln in b_lines:
+        d.text((pad, y), ln, font=body_f, fill=TXT)
+        y += 62
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG")
+    return out
+
+
+def comment_card(question: str, answer: str, out: Path) -> Path:
+    """댓글 질문 + 작성자 답변 카드."""
+    W, pad = 1200, 64
+    lab_f, body_f = _font(True, 30), _font(False, 42)
+    tmp = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    q_lines = _wrap(tmp, question, body_f, W - pad * 2)
+    a_lines = _wrap(tmp, answer, body_f, W - pad * 2 - 60) if answer else []
+    qh = pad + 50 + len(q_lines) * 60 + pad - 20
+    ah = (pad + 50 + len(a_lines) * 60 + pad - 20) if a_lines else 0
+    img = Image.new("RGB", (W, qh + ah), DARK_BG)
+    d = ImageDraw.Draw(img)
+    d.text((pad, pad - 10), "댓글", font=lab_f, fill=DIM)
+    y = pad + 40
+    for ln in q_lines:
+        d.text((pad, y), ln, font=body_f, fill=TXT)
+        y += 60
+    if a_lines:
+        d.rectangle([0, qh, W, qh + ah], fill=DARK_BG2)
+        d.text((pad + 60, qh + pad - 10), "└ 작성자 답글", font=lab_f, fill=(255, 92, 168))
+        y = qh + pad + 40
+        for ln in a_lines:
+            d.text((pad + 60, y), ln, font=body_f, fill=TXT)
+            y += 60
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG")
+    return out
+
+
 def from_directive(kind: str, spec: str, out: Path) -> Path | None:
     parts = [p.strip() for p in spec.split("|")]
     try:
@@ -136,6 +192,14 @@ def from_directive(kind: str, spec: str, out: Path) -> Path | None:
             period = parts[1].lower() if len(parts) > 1 else "3mo"
             title = parts[2] if len(parts) > 2 else " vs ".join(tickers)
             return chart(tickers, period, title, out)
+        if kind == "인용":
+            src = parts[0] if len(parts) > 2 else "온라인 커뮤니티"
+            title = parts[1] if len(parts) > 2 else parts[0]
+            body = parts[-1] if len(parts) > 1 else ""
+            return quote_card(src, title, [x.strip() for x in body.split("/") if x.strip()], out)
+        if kind == "댓글":
+            qa = [x.strip() for x in spec.split("/")]
+            return comment_card(qa[0], " ".join(qa[1:]).strip(), out)
         if kind == "카드":
             title = parts[0]
             items = [x.strip() for x in (parts[1] if len(parts) > 1 else "").split("/") if x.strip()]

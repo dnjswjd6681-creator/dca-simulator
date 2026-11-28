@@ -3,7 +3,7 @@
 # ── Claude 설정 ─────────────────────────────────────────────
 MODEL = "claude-opus-5-5"
 EFFORT = "medium"          # low | medium | high  (높을수록 꼼꼼하지만 비용↑)
-WEB_SEARCH_MAX_USES = {"morning": 5, "evening": 2}  # Claude가 웹검색으로 최신 이슈를 확인하는 최대 횟수 (0이면 끔)
+WEB_SEARCH_MAX_USES = {"morning": 8, "evening": 4}  # Claude가 웹검색으로 최신 이슈를 확인하는 최대 횟수 (0이면 끔)
 
 # ── 비중: 미주 60 / 국주 20 / 크립토 20 ─────────────────────
 WEIGHTS = {"미국주식": 60, "국내주식": 20, "크립토": 20}
@@ -61,4 +61,4 @@ YOUTUBE_CHANNELS = {
 }
 
 # ── 썸네일 오른쪽 아래에 들어갈 계정명 (비워두면 안 넣음) ─────
-BRAND_NAME = ""
+BRAND_NAME = ""   # 예: "○○의 재테크 노트" (썸네일 맨 아래 분홍 글씨)

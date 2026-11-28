@@ -24,7 +24,11 @@ def _is_separator(cells: list[str]) -> bool:
     return all(re.fullmatch(r":?-{2,}:?", c.replace(" ", "")) for c in cells if c) and any(cells)
 
 
+PINK, YELLOW = "#ff1e8c", "#fff59d"
+
+
 def _strip_inline(text: str) -> str:
+    text = re.sub(r"==(.+?)==", r"\1", text)
     text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
     text = re.sub(r"__(.+?)__", r"\1", text)
     text = re.sub(r"(?<!\*)\*(?!\s)(.+?)(?<!\s)\*(?!\*)", r"\1", text)
@@ -70,8 +74,38 @@ def table_image(rows: list[list[str]], out: Path) -> Path:
     return out
 
 
-def convert(body: str, out_dir: Path) -> tuple[str, list[Path]]:
-    """(네이버용 본문, 표 이미지 경로 목록)"""
+def _to_html(line: str) -> str:
+    import html as h
+    if not line.strip():
+        return "<p>&nbsp;</p>"
+    t = h.escape(line)
+    t = re.sub(r"==(.+?)==", rf'<span style="background-color:{YELLOW}">\1</span>', t)
+    t = re.sub(r"\*\*(.+?)\*\*", rf'<b><span style="color:{PINK}">\1</span></b>', t)
+    t = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', t)
+    t = re.sub(r"(?<![\"'>])(https?://[^\s<]+)", r'<a href="\1">\1</a>', t)
+    return f"<p>{t}</p>"
+
+
+def emphasis(body: str) -> tuple[list[str], list[str]]:
+    """(핑크로 칠할 문구, 노란 형광펜 문구)"""
+    return re.findall(r"\*\*(.+?)\*\*", body), re.findall(r"==(.+?)==", body)
+
+
+def to_html_page(title: str, body_html: str, hashtags: str) -> str:
+    return f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title>
+<style>body{{max-width:720px;margin:24px auto;padding:0 16px;font-family:-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
+font-size:17px;line-height:1.9;color:#222;background:#fff}} .tip{{background:#f1f3f5;padding:12px 16px;border-radius:8px;font-size:14px;color:#555}}
+p{{margin:0}}</style></head><body>
+<div class="tip">💻 PC에서: 아래 회색 선 밑의 본문을 마우스로 드래그해서 복사(⌘+C) → 네이버 블로그 글쓰기에 붙여넣기(⌘+V)하면 핑크/노란 강조가 같이 들어가요. 📷 자리에는 텔레그램으로 받은 이미지를 넣으세요.</div>
+<hr><h2 style="font-weight:500">{title}</h2>
+{body_html}
+<p>&nbsp;</p><p>{hashtags}</p></body></html>"""
+
+
+def convert(body: str, out_dir: Path) -> tuple[str, list[Path], str]:
+    """(네이버용 본문, 이미지 경로 목록, 강조색이 들어간 HTML 본문)"""
+    html_lines: list[str] = []
     lines = body.splitlines()
     out_lines, images, i = [], [], 0
     while i < len(lines):
@@ -84,9 +118,10 @@ def convert(body: str, out_dir: Path) -> tuple[str, list[Path]]:
             n = len(images) + 1
             images.append(table_image(rows, out_dir / f"image_{n}.png"))
             out_lines.append(f"📷 [이미지 {n} 넣기]")
+            html_lines.append(_to_html(out_lines[-1]))
             continue
         line = lines[i]
-        d = re.match(r"^\s*\[(차트|카드|이미지)\s*[:：]\s*(.+?)\]\s*$", line)
+        d = re.match(r"^\s*\[(차트|카드|인용|댓글|이미지)\s*[:：]\s*(.+?)\]\s*$", line)
         if d:
             kind, spec = d.group(1), d.group(2)
             made = img_mod.from_directive(kind, spec, out_dir / f"image_{len(images) + 1}.png")
@@ -96,6 +131,7 @@ def convert(body: str, out_dir: Path) -> tuple[str, list[Path]]:
             else:
                 desc = spec.split("|")[-1].strip() if kind == "차트" else spec
                 out_lines.append(f"💡 추천 이미지 (직접 넣기): {desc}")
+            html_lines.append(_to_html(out_lines[-1]))
             i += 1
             continue
         m = re.match(r"^\s{0,3}#{1,6}\s+(.*)$", line)
@@ -105,12 +141,13 @@ def convert(body: str, out_dir: Path) -> tuple[str, list[Path]]:
         elif re.match(r"^\s*[-*]\s+\[[ xX]\]\s+", line):
             line = re.sub(r"^\s*[-*]\s+\[[ xX]\]\s+", "✅ ", line)
         elif re.match(r"^\s*[-*]\s+", line):
-            line = re.sub(r"^\s*[-*]\s+", "• ", line)
+            line = re.sub(r"^\s*[-*]\s+", "-", line)
         elif re.match(r"^\s*(---+|\*\*\*+)\s*$", line):
             line = ""
         elif line.startswith(">"):
             line = line.lstrip("> ").strip()
         out_lines.append(_strip_inline(line))
+        html_lines.append(_to_html(line))
         i += 1
     text = re.sub(r"\n{3,}", "\n\n", "\n".join(out_lines)).strip()
-    return text, images
+    return text, images, "\n".join(html_lines)

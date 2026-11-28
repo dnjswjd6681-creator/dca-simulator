@@ -86,9 +86,13 @@ def main():
         files["thumb"] = thumbnail.make(draft.get("thumbnail_line1", draft.get("blog_title", "")),
                                         draft.get("thumbnail_line2", ""), draft.get("category", ""),
                                         now.strftime("%Y.%m.%d"), config.BRAND_NAME, day_dir / "thumbnail.png")
-        naver_text, files["tables"] = naver_format.convert(draft["blog_body"], day_dir)
+        naver_text, files["tables"], body_html = naver_format.convert(draft["blog_body"], day_dir)
         files["naver"] = day_dir / "blog_naver.txt"
         files["naver"].write_text(f"{naver_text}\n\n{draft.get('hashtags', '')}\n", encoding="utf-8")
+        files["html"] = day_dir / "blog_pc.html"
+        files["html"].write_text(naver_format.to_html_page(draft.get("blog_title", ""), body_html,
+                                                           draft.get("hashtags", "")), encoding="utf-8")
+        pinks, yellows = naver_format.emphasis(draft["blog_body"])
         entry["title"] = draft.get("blog_title", "")
     x_file = day_dir / f"x_{args.mode}.txt"
     x_file.write_text(draft["x_post"], encoding="utf-8")
@@ -117,6 +121,11 @@ def main():
             telegram.send_text(draft.get("blog_title", ""))
             telegram.send_text("④ 본문 ↓ (네이버에 그대로 붙여넣기)")
             telegram.send_text(files["naver"].read_text(encoding="utf-8"))
+            if pinks or yellows:
+                telegram.send_text("🎨 색칠할 문구 (드래그해서 글자색/형광펜 적용)\n\n"
+                                   + "".join(f"🩷 핑크 굵게: {p}\n" for p in pinks)
+                                   + "".join(f"💛 노란 형광펜: {y}\n" for y in yellows))
+            telegram.send_document(files["html"], caption="💻 PC용: 이 파일을 열어 복사하면 강조색까지 한 번에 붙여넣어져요")
         telegram.send_text("⑤ 🐦 X 초안 ↓ (그대로 복사해서 쓰세요)")
     else:
         telegram.send_text(f"🌆 {md} 오후 X 초안 ↓ (그대로 복사해서 쓰세요)")
