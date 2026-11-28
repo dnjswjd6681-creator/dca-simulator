@@ -86,6 +86,8 @@ def main():
         files["thumb"] = thumbnail.make(draft.get("thumbnail_line1", draft.get("blog_title", "")),
                                         draft.get("thumbnail_line2", ""), draft.get("category", ""),
                                         now.strftime("%Y.%m.%d"), config.BRAND_NAME, day_dir / "thumbnail.png")
+        for old in list(day_dir.glob("image_*.png")) + list(day_dir.glob("table_*.png")):
+            old.unlink()  # 같은 날 다시 실행했을 때 예전 이미지가 섞이지 않게
         naver_text, files["tables"], body_html = naver_format.convert(draft["blog_body"], day_dir)
         files["naver"] = day_dir / "blog_naver.txt"
         files["naver"].write_text(f"{naver_text}\n\n{draft.get('hashtags', '')}\n", encoding="utf-8")
