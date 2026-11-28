@@ -64,11 +64,27 @@ def _system() -> str:
     return SYSTEM_BASE.format(style_guide=guide)
 
 
+KEEP_QUOTES = {"S&P500", "나스닥", "코스피", "코스닥", "원/달러"}
+
+
+def slim(data: dict) -> dict:
+    """비용 절약: 새 스타일(사연 큐레이션)에 필요한 것만 남긴다.
+    주요 지수 5개 + 뉴스 제목(요약문 제외). 종목별 시세·크립토 상세는 뺀다."""
+    quotes = [q for k in ("us_indices", "kr_indices", "macro") for q in data.get(k, []) if q.get("name") in KEEP_QUOTES]
+    return {
+        "collected_at_kst": data.get("collected_at_kst"),
+        "key_quotes": [{"name": q["name"], "symbol": q["symbol"], "close": q["close"], "chg_1d_%": q["chg_1d_%"]}
+                       for q in quotes],
+        "news_titles": {cat: [f'{it.get("source", "")}: {it["title"]}' for it in items]
+                        for cat, items in data.get("news", {}).items()},
+    }
+
+
 def build_user_message(mode: str, data: dict, history: list[dict]) -> str:
     task = MORNING_TASK if mode == "morning" else EVENING_TASK
     hist = "\n".join(f"- {h['date']} [{h.get('category', '?')}] {h.get('title') or h.get('x_post', '')[:60]}"
                      for h in history[-14:]) or "(없음)"
-    return (f"<market_data>\n{json.dumps(data, ensure_ascii=False, separators=(",", ":"))}\n</market_data>\n\n"
+    return (f"<market_data>\n{json.dumps(slim(data), ensure_ascii=False, separators=(",", ":"))}\n</market_data>\n\n"
             f"<recent_topics>\n{hist}\n</recent_topics>\n\n{task}")
 
 
