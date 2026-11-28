@@ -94,8 +94,15 @@ def _call(user_msg: str, mode: str) -> str:
             resp = stream.get_final_message()
 
         u = resp.usage
-        log.info("토큰 사용: input=%s output=%s cache_read=%s stop=%s",
-                 u.input_tokens, u.output_tokens, getattr(u, "cache_read_input_tokens", 0), resp.stop_reason)
+        cr = getattr(u, "cache_read_input_tokens", 0) or 0
+        cw = getattr(u, "cache_creation_input_tokens", 0) or 0
+        stu = getattr(u, "server_tool_use", None)
+        searches = (getattr(stu, "web_search_requests", 0) or 0) if stu else 0
+        # Opus 5.5 단가(USD/백만 토큰): 입력 4, 출력 20, 캐시읽기 0.2, 캐시쓰기 5 / 웹검색 1회 0.01
+        usd = (u.input_tokens * 4 + u.output_tokens * 20 + cr * 0.2 + cw * 5) / 1e6 + searches * 0.01
+        log.info("토큰 사용: input=%s output=%s cache_read=%s cache_write=%s 웹검색=%s회 stop=%s",
+                 u.input_tokens, u.output_tokens, cr, cw, searches, resp.stop_reason)
+        log.info("💰 이번 호출 예상 비용: $%.3f (약 %d원)", usd, round(usd * 1450))
 
         if resp.stop_reason == "pause_turn":
             messages.append({"role": "assistant", "content": resp.content})
